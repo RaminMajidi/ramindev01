@@ -1,11 +1,17 @@
-import logo from '../logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './Pages/Router/Header';
+import { ActiveContext } from './Context/ActiveContext';
 
-function App() {
+const  App = ()=> {
+  const [activeMenu,setActiveMenu] = React.useState("home");
+
   return (
-    <div className="App">
-     <h1>ramindev01 app</h1>
-    </div>
+  <div className='App'>
+  <ActiveContext.Provider value={{activeMenu,setActiveMenu}}>
+    <Header/>
+  </ActiveContext.Provider>
+  </div>
   );
 }
 export default App;

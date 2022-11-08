@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import "animate.css";
 import Header from './Pages/Router/Header';
 import { ActiveContext } from './Context/ActiveContext';
 

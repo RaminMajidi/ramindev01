@@ -29,14 +29,9 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-h2{
-  color: #6ec1e4;
-  z-index: 100;
-}
 .page{
   position: absolute;
   left: 0;
   height: 100%;
   padding: 30px 5px;
-  border: 1px solid white;
 }

@@ -9,7 +9,7 @@ const About = () =>{
     },[])
 
     return(
-        <section className="page col-12 col-lg-10 col-md-9" >
+        <section className="page about col-12 col-lg-10 col-md-9 animate__animated animate__bounceInDown" >
             <h2>About</h2>
         </section>
     )

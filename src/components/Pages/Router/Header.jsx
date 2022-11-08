@@ -36,31 +36,31 @@ icon === "bx-menu" ? setIcon("bx-x") : setIcon("bx-menu");
     <hr/>
     <ul className="nav nav-pills d-flex flex-column justify-content-around align-items-start mb-auto text-end">
       <li className="nav-item w-100">
-        <Link to={"/"} className={`text-white nav-link ${activeMenu == "home" ? "active" : ""}`} aria-current="page">
+        <Link to={"/"} className={`text-white nav-link ${activeMenu === "home" ? "active" : ""}`} aria-current="page">
         <i className='bx bxs-home m-2'></i>
           خانه
         </Link>
       </li>
       <li className="nav-item w-100 ">
-        <Link to={"/About"} className={`text-white nav-link ${activeMenu == "about" ? "active" : ""}`}>
+        <Link to={"/About"} className={`text-white nav-link ${activeMenu === "about" ? "active" : ""}`}>
         <i className='bx bxs-user m-2'></i>
           درباره من
         </Link>
       </li>
       <li className="nav-item w-100 ">
-        <Link to={"/Resume"} className={`text-white nav-link ${activeMenu == "resume" ? "active" : ""}`}>
+        <Link to={"/Resume"} className={`text-white nav-link ${activeMenu === "resume" ? "active" : ""}`}>
         <i className='bx bx-book m-2'></i>
           تجربیات
         </Link>
       </li>
       <li className="nav-item w-100 ">
-        <Link to={"/Portfolio"} className={`text-white nav-link ${activeMenu == "portfolio" ? "active" : ""}`}>
+        <Link to={"/Portfolio"} className={`text-white nav-link ${activeMenu === "portfolio" ? "active" : ""}`}>
         <i className='bx bx-code-block m-2'></i>
           نمونه کارها
         </Link>
       </li>
       <li className="nav-item w-100 ">
-        <Link to={"Contact"} className={`text-white nav-link ${activeMenu == "contact" ? "active" : ""}`}>
+        <Link to={"Contact"} className={`text-white nav-link ${activeMenu === "contact" ? "active" : ""}`}>
         <i className='bx bxs-envelope m-2'></i>
           ارتباط با من
         </Link>

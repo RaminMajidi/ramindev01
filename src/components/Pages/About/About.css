@@ -1,0 +1,22 @@
+.about{
+    min-height: 100vh;
+    background: fixed url(../../../assets/images/bg-01.jpg) center no-repeat;
+    background-size: cover;
+}
+.about-title{
+ border-bottom: 1px dashed rgba(255,255,255,.2);
+}
+.b-b-b{
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--color-blue);
+}
+.btn{
+    background-color: transparent;
+    color:var(--color-blue);
+    transition: all .5s ease-in-out;
+    border-color: var(--color-blue);
+}
+.btn:hover{
+color: black;
+background-color:var(--color-blue);
+}

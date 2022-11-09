@@ -1,18 +1,18 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./Home.css";
 import { ActiveContext } from "../../Context/ActiveContext";
-import { skils } from "../../../assets/data/data";
+import { skilsHome } from "../../../assets/data/data";
 
 
 const Home = () =>{
 const {setActiveMenu} = useContext(ActiveContext);
-const [skil,setSkil] = useState(skils[0]);
+const [skil,setSkil] = useState(skilsHome[0]);
 
 useEffect(()=>{
     setActiveMenu("home");
     setInterval(()=>{
-        let i = Math.floor(Math.random() * skils.length);
-        setSkil(skils[i]);
+        let i = Math.floor(Math.random() * skilsHome.length);
+        setSkil(skilsHome[i]);
     },5000)
 },[])
 

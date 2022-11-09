@@ -8,8 +8,8 @@
   font-style: normal;
 }
 :root{
-  --color-blue:#6ec1e4;
-  --bg-color : #292b2c;
+  --color-blue:#00a3e1;
+  --bg-color : #363b41;
 }
 *{
   margin: 0;
@@ -22,7 +22,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   direction: rtl;
   overflow-x: hidden;
-  background-color: var(--bg-color);
+  background-color: var(--bs-secondary);
 }
 #root{
   position: relative;
@@ -32,6 +32,10 @@ body {
 .page{
   position: absolute;
   left: 0;
-  height: 100%;
-  padding: 30px 5px;
+  min-height: 100vh;
+  padding: 30px 15px;
+  background-color:var(--bg-color) ;
+}
+.text-just{
+  text-align: justify;
 }

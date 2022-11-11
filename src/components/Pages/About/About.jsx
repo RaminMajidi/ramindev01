@@ -3,6 +3,7 @@ import "./About.css";
 import { ActiveContext } from "../../Context/ActiveContext";
 import Information from "./Information";
 import Servises from "./Servises";
+import Certificate from "./Certificates";
 
 
 
@@ -21,6 +22,7 @@ const About = () =>{
            <br />
            <Servises/>
            <br />
+           <Certificate/>
         </section>
     )
 }

@@ -1,0 +1,39 @@
+.crousel-container{
+    width:100%;
+    max-width: 900px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px 10px var(--color-blue);
+}
+.wdt{  
+    width: 96% !important; 
+}  
+.img{
+    width: 100%;
+    max-height: 600px ; 
+    cursor: pointer;
+} 
+
+@media(max-width:768px){
+    .crousel-container{
+        width:96%;
+        max-width: 600px;
+        margin: 1rem auto;
+    }
+    .img{
+        width: 100%;
+        max-height: 400px ; 
+    } 
+}
+@media(max-width:520px){
+    .crousel-container{
+        width:90%;
+        max-width: 300px;
+        margin: 1rem auto;
+    }
+    .img{
+        width: 100%;
+        max-height: 200px ; 
+    } 
+}
+
+

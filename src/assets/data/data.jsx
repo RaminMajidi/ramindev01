@@ -29,8 +29,9 @@ export const aboutData = [aboutMe , information];
 //********************************* */
 // Start Resume data
 
-export const  resumeItems =[{id:1,title1:"کاردانی نرم افزار",title2:"دانشگاه آزاد اسلامی",startDate:"مهر 1394",endDate:"اسفند 1396",desc:"مشغول به تحصیل در رشته مهندسی نرم افزار در دانشگاه آزاد اسلامی واحد لنجان بوده ام ."},{id:2,title1:"خود آموز",title2:"تاپلرن و ...",startDate:"فروردین 1400",endDate:" اسفند 1400",desc:"به صورت خود آموز شروع به یادگیری مباحث برنامه نویسی همچون الگوریتم وحل مسئله کردم و مهارتهایی همچون فتوشاپ و زبانهای  HTML ، CSS ، JavaScript ،WordPress و BootStarp  را فرا گرفتم ."},{id:3,title1:"مدرک فنی حرفه ای",title2:"آکادمی فن پردازان",startDate:"فرودین 1401",endDate:"خرداد 1401",desc:"پس از یادگیری مباحث ذکر شده  قبلی در زمینه فرانت اند با شرکت در دوره برنامه نویسی React  موسسه فن پردازان موفق به  یادگیری و اخذ مدرک این دوره React  شدم ."}];
+export const  resumeData =[{id:1,title1:"کاردانی نرم افزار",title2:"دانشگاه آزاد اسلامی",startDate:"مهر 1394",endDate:"اسفند 1396",desc:"مشغول به تحصیل در رشته مهندسی نرم افزار در دانشگاه آزاد اسلامی واحد لنجان بوده ام ."},{id:2,title1:"خود آموز",title2:"تاپلرن و ...",startDate:"فروردین 1400",endDate:" اسفند 1400",desc:"به صورت خود آموز شروع به یادگیری مباحث برنامه نویسی همچون الگوریتم وحل مسئله کردم و مهارتهایی همچون فتوشاپ و زبانهای  HTML ، CSS ، JavaScript ،WordPress و BootStarp  را فرا گرفتم ."},{id:3,title1:"مدرک فنی حرفه ای",title2:"آکادمی فن پردازان",startDate:"فرودین 1401",endDate:"خرداد 1401",desc:"پس از یادگیری مباحث ذکر شده  قبلی در زمینه فرانت اند با شرکت در دوره برنامه نویسی React  موسسه فن پردازان موفق به  یادگیری و اخذ مدرک این دوره React  شدم ."}];
 
+export const skillsData = [{id:1,name:"HTML",percent:95},{id:2,name:"CSS",percent:90},{id:3,name:"JavaScript",percent:75},{id:4,name:"BootStrap",percent:80},{id:5,name:"React JS",percent:70},{id:6,name:"Git&GitHub",percent:30},{id:7,name:"PhotoShop",percent:40},{id:8,name:"OOP",percent:60},{id:9,name:"WordPress",percent:70}]
 
 //********************************* */
 // End About data

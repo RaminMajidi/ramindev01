@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-
 const ResumeItem =(props)=>{
     
 const [data,setData] = useState();
@@ -15,8 +14,7 @@ useEffect(()=>{
                 <>
                 {data.map((item,i)=>{
                     return(
-               
-                     <div className={`col-12 wow col-lg-3 mx-2 my-3  animate__animated animate__zoomInDown animate__delay-${i}s`}>
+                     <div className={`col-12 wow col-lg-3 mx-2 my-3  animate__animated animate__zoomInDown animate__delay-1s`}>
                          <h3 className="b-t-n text-white mx-auto mb-4 px-2">{item.title1}</h3>
                          <ul className=" text-white my-2">
                          <span className="line"></span>
@@ -31,11 +29,9 @@ useEffect(()=>{
                     )
                 })}
                 </>
-               
             ) : (null)
         }
         </>
-
     )
 }
 export default ResumeItem;

@@ -18,3 +18,19 @@ list-style: none;
     border-right: 4px solid var(--color-blue);
 }
 
+.progress-bar{
+    animation: width 2s ease-in-out  ;
+    }
+    
+    @keyframes width {
+   0%{
+       width: 0%;
+   }
+   50%{
+       width: 25%;
+   }
+   100%{
+       width: max-content;
+   }
+    }
+

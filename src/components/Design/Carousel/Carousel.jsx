@@ -25,7 +25,7 @@ export class Carousel extends Component{
     
     return (
       <>
-        <div className="crousel-container">    
+        <div className="wow crousel-container animate__animated animate__backInLeft animate__delay-1s">    
             <Slider {...settings}  > 
             <div  className="wdt">  
               <img className="img img-fluid" src= {img1} />  

@@ -16,8 +16,8 @@ const About = () =>{
     },[])
 
     return(
-        <section className="page col-12 col-lg-10 col-md-9 about animate__animated animate__fadeInTopLeft" >
-           <div className="text-info d-flex justify-content-between align-items-start fs-1 px-3 w-75 mx-auto fw-bold about-title"><h2>درباره من</h2><i class='bx bxs-user'></i></div>
+        <section className="page col-12 col-lg-10 col-md-9 about animate__animated animate__backInUp" >
+           <div className="text-info d-flex justify-content-between align-items-start fs-1 px-3 w-75 mx-auto fw-bold page-title-b"><h2>درباره من</h2><i class='bx bxs-user'></i></div>
            <Information/>
            <br />
            <Servises/>

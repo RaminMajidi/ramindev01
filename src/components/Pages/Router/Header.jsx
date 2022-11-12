@@ -49,7 +49,7 @@ icon === "bx-menu" ? setIcon("bx-x") : setIcon("bx-menu");
       </li>
       <li className="nav-item w-100 ">
         <Link to={"/Resume"} className={`text-white nav-link ${activeMenu === "resume" ? "active" : ""}`}>
-        <i className='bx bx-book m-2'></i>
+        <i className='bx bxs-graduation m-2'></i>
           تجربیات
         </Link>
       </li>

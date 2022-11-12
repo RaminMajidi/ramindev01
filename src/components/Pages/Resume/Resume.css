@@ -1,0 +1,20 @@
+.resume{
+    min-height: 100vh;
+    background: fixed url(../../../assets/images/background.jpg) center no-repeat;
+    background-size: cover;
+}
+ul{
+    position: relative;
+}
+ul li{
+list-style: none;
+}
+.line{
+    position: absolute;
+    display: inline-block;
+    height:98%;
+    right:-0.5rem;
+    margin: auto 0px;
+    border-right: 4px solid var(--color-blue);
+}
+

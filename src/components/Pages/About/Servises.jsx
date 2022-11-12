@@ -5,13 +5,13 @@ import { servises } from '../../../assets/data/data';
 const Servises = ()=>{
 
     return(
-        <div className='row my-2 p-1'>
-            <h2 className='b-t-n mx-auto text-info'>خدمات</h2>
+        <div className='row my-4 p-1'>
+            <h2 className='wow b-t-n mx-auto text-info animate__animated animate__backInRight animate__delay-2s'>خدمات</h2>
         <div className="text-white d-flex flex-wrap justify-content-around  p-2 mx-auto mt-4 text-end">
         {
             servises.map(cart=>{
                 return(
-                <div key={cart.id} className='col-6 col-md-4 col-lg-3 m-2 text-center'>
+                <div key={cart.id} className='wow col-6 col-md-4 col-lg-3 m-2 text-center animate__animated animate__fadeInUp animate__delay-1s'>
                     <div className=''><i className={`bx ${cart.icon} fs-1 fw-bold`}></i></div>
                     <h4 className='my-2 text-info fw-bold'>{cart.title}</h4>
                     <p className='fs-5'>{cart.text}</p>

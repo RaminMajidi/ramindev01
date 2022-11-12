@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import "animate.css";
 import Header from './Pages/Router/Header';
@@ -6,7 +6,6 @@ import { ActiveContext } from './Context/ActiveContext';
 
 const  App = ()=> {
   const [activeMenu,setActiveMenu] = React.useState("home");
-
   return (
   <div className='App'>
   <ActiveContext.Provider value={{activeMenu,setActiveMenu}}>

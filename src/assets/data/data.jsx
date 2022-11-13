@@ -1,4 +1,6 @@
-
+import akskadeh from "../images/akskadeh.jpg";
+import cargallery from "../images/cargallery.jpg";
+import pelates from "../images/pelates.jpg";
 //********************************* */
 // Start Home data
 
@@ -42,6 +44,9 @@ export const skillsData = [{id:1,name:"HTML",percent:95},{id:2,name:"CSS",percen
 // Start portfolio data
 
 export const categorys  = ["All","BootStrap","React","App","Basic Coding"];
+
+
+export const portfolioData = [{id:1,title:"akskadeh",category:"React",ir_url:"https://akskadeh.iran.liara.run/",co_url:"https://akskadeh.netlify.app/",img:akskadeh},{id:2,title:"cargallery",category:"BootStrap",ir_url:"",co_url:"https://cargalley.netlify.app/",img:cargallery},{id:3,title:"pelates",category:"Basic Coding",ir_url:"",co_url:"https://pelates.netlify.app/",img:pelates}];
 
 
 

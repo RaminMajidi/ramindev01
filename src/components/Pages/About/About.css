@@ -2,7 +2,7 @@
     background-image:url(../../../assets/images/bg-01.jpg);
 }
 .page-title-b{
- border-bottom: 1px dashed rgba(255,255,255,.2);
+ border-bottom: 2px dashed rgba(255,255,255,.2);
 }
 .b-b-b{
     padding-bottom: 3px;
@@ -17,7 +17,7 @@
 .btn{
     background-color: transparent;
     color:var(--color-blue);
-    transition: all .5s ease-in-out;
+    transition: all .6s ease-in-out;
     border-color: var(--color-blue);
 }
 .btn:hover{

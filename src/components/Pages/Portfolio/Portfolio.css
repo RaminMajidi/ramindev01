@@ -1,3 +1,34 @@
 .page.portfolio{
     background-image: url(../../../assets/images/nature.jpg);
 }
+
+.btn-container{
+    border: 2px dashed var(--bg-color);
+}
+
+.port-card{
+    position: relative;
+    cursor: pointer;
+    animation-delay: .3s;
+    animation-duration: 1.5s;
+}
+.pord-desc{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:0;
+    height:0;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+  
+}
+.port-card:hover .pord-desc{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}

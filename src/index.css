@@ -35,6 +35,9 @@ body {
   min-height: 100vh;
   padding: 30px 15px;
   background-color:var(--bg-color) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .text-just{
   text-align: justify;

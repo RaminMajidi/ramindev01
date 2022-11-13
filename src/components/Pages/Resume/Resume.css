@@ -1,7 +1,5 @@
-.resume{
-    min-height: 100vh;
-    background: fixed url(../../../assets/images/background.jpg) center no-repeat;
-    background-size: cover;
+.page.resume{
+    background-image:url(../../../assets/images/background.jpg);
 }
 ul{
     position: relative;

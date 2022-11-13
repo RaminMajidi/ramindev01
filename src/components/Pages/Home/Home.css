@@ -3,9 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: fixed url(../../../assets/images/home-bg.jpg) center no-repeat;
-    background-size: cover;
-    filter: blur(1);
+    background-image:url(../../../assets/images/home-bg.jpg);
 }
 .full-name{
     font-size: 4rem;

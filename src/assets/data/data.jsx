@@ -35,3 +35,15 @@ export const skillsData = [{id:1,name:"HTML",percent:95},{id:2,name:"CSS",percen
 
 //********************************* */
 // End About data
+
+
+
+//********************************* */
+// Start portfolio data
+
+export const categorys  = ["All","BootStrap","React","App","Basic Coding"];
+
+
+
+//********************************* */
+// End portfolio data

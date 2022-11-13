@@ -17,6 +17,7 @@ const Information =()=>{
             <h5><span className="b-b-b d-inline-block mx-2 my-1">آدرس : </span><span>{aboutData[1].address}</span></h5>
             <h5><span className="b-b-b d-inline-block mx-2 my-1">ایمیل : </span><span>{aboutData[1].email}</span></h5>
             <h5><span className="b-b-b d-inline-block mx-2 my-1">تلفن : </span><span>{aboutData[1].phone}</span></h5>
+            <h5><span className="b-b-b d-inline-block mx-2 my-1">وضعیت سربازی : </span><span>{aboutData[1].soldiering}</span></h5>
             <h5><span className="b-b-b d-inline-block mx-2 my-1">وضعیت شغلی : </span><span>{aboutData[1].Freelance}</span></h5>
             <br />
             <a href={myresume} target={"_blank"} download><button className="btn btn-light w-50 wow animate__animated animate__backInLeft animate__delay-2s ">دانلود رزومه</button></a>

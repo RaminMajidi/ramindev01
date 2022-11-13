@@ -16,7 +16,7 @@ import pelates from "../images/pelates.jpg";
 const aboutMe ={title:"فرانت اند دولوپر و طراح سایت",text:"سلام ، من رامین مجیدی هستم؛ ساکن اصفهان؛فریلنسر توسعه دهنده Front-End وهمچنین طراح سایتهای وردپرسی . علاقه مند به یادگیری هرچه بیشتر و توسعه مهارت های شخصی خود در حوزه وب. فارغ التحصیل رشته مهندسی نرم افزار در مقطع کاردانی . به صورت فریلنسری مشغول به انجام پروژه هایی در زمینه های مختلف بوده ام . اما در طی یک سال و نیم اخیر تمرکز خود را برروی کسب مهارتهای تخصصی در زمینه فرانت اند گذاشته ام ، در حال حاظر مسلط به مباحث این حوزه بوده و همواره هم در تلاش هستم تا مهارتهای خود را ارتقاع دهم و تجربیات بیشتری را فرابگیرم. هدف اصلی من در آینده تبدیل شدن به یک MERN STACK DEVELOPER است . "};
  
  
-const information = {title:"اطلاعات شخصی",fullName:"رامین مجیدی",age:"26",address:"اصفهان - شهرستان لنجان - باغبهادران",email:"ramin1475@gmail.com",phone:"09917572781",Freelance:"فریلنسر - در دسترس"};
+const information = {title:"اطلاعات شخصی",fullName:"رامین مجیدی",age:"26",address:"اصفهان - شهرستان لنجان - باغبهادران",email:"ramin1475@gmail.com",phone:"09917572781",soldiering:"انجام شده",Freelance:"فریلنسر - در دسترس"};
 
 
 export const servises = [{id:1,icon:"bxl-react",title:"کدنویسی سمت کاربر",text:"به عنوان یک فرانت اند دولوپر توانایی تبدیل طراحی های شما را به کد های بهینه با HTML ، CSS ، JAVASCRIPT ، BootStrap , React   دارم."},{id:2,icon:"bxl-wordpress",title:"طراحی سایت",text:"یکی از بهترین و به صرفه ترین روش ها برای داشتن یک وب سایت مناسب شخصی ، شرکتی ، خبری یا فروشگاهی طراحی سایت با وردئرس است . من میتوانم این خدمت را به شما اراِه بدهم."},{id:3,icon:"bx-devices",title:"طراحی واکنش گرا",text:"امروزه بدلیل وجود موبایل ها ، تبلت ها و صفحه نمایش هایی با اندازه های مختلف یکی از مهمترین پارامترهای یک وب سایت واکنش پذیری آن است . من توانایی طراحی وب سایت های واکنشگرا را دارم."},{id:4,icon:"bxs-user",title:"پروژه های دانشجویی",text:"به عنوان یک برنامه نویس فریلنسر تجربه زیادی در طراحی و کدنویسی پروژه های دانشجویی در رشته نرم افزار را دارم .با اطمینان  میتوانید پروژه ها و تمرینات دانشجویی خود را به من بسپارید."},{id:5,icon:"bx-support",title:"پشتیبانی رایگان",text:"داشتن پشتیبانی  رایگان 2 ماهه یکی از امتیازات ویژه کاری بنده است که برای جبران اعتماد شما مشتری عزیز بنده برای شما در نظر گرفته ام."}];
@@ -45,10 +45,19 @@ export const skillsData = [{id:1,name:"HTML",percent:95},{id:2,name:"CSS",percen
 
 export const categorys  = ["All","BootStrap","React","App","Basic Coding"];
 
-
 export const portfolioData = [{id:1,title:"akskadeh",category:"React",ir_url:"https://akskadeh.iran.liara.run/",co_url:"https://akskadeh.netlify.app/",img:akskadeh},{id:2,title:"cargallery",category:"BootStrap",ir_url:"",co_url:"https://cargalley.netlify.app/",img:cargallery},{id:3,title:"pelates",category:"Basic Coding",ir_url:"",co_url:"https://pelates.netlify.app/",img:pelates}];
-
-
 
 //********************************* */
 // End portfolio data
+
+
+//********************************* */
+// Start Contact data
+
+
+export const socialData = [{id:1,title:"telegram",url:"https://t.me/ramindev01",icon:"bxl-telegram",text:"RaminDev01"},{id:2,title:"Instagram",url:"https://www.instagram.com/ramindev01/",icon:"bxl-instagram",text:"RaminDev01"},{id:3,title:"linkedin",url:"https://www.linkedin.com/in/ramindev01/",icon:"bxl-linkedin-square",text:"RaminDev01"},{id:4,title:"GitHub",url:"https://github.com/RaminMajidi",icon:"bxl-github",text:"RaminMajidi"},{id:5,title:"Email",url:"mailto:raminmajididev01@gmail.com",icon:"bxs-envelope",text:"RaminMajididev01@gmail.com",},{id:6,title:"Contact",url:"tel:+989917572781",icon:"bxs-phone-call",text:"09917572781"}]
+
+//********************************* */
+// End Contact data
+
+

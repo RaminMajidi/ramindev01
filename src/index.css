@@ -42,3 +42,29 @@ body {
 .text-just{
   text-align: justify;
 }
+
+.page-title-b{
+  border-bottom: 3px dashed rgba(255,255,255,.2);
+ }
+ .b-b-b{
+     padding-bottom: 3px;
+     border-bottom: 4px solid var(--color-blue);
+ }
+ .b-t-n{
+     padding:0 8px 8px ;
+     border: 3px solid var(--color-blue);
+     border-top: none;
+     width: max-content;
+ }
+ .btn{
+     background-color: transparent;
+     color:var(--color-blue);
+     transition: all .6s ease-in-out;
+     border-color: var(--color-blue);
+ }
+ .btn:hover{
+ color: black;
+ background-color:var(--color-blue);
+ }
+ 
+ 

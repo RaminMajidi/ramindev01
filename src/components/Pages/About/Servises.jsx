@@ -11,7 +11,7 @@ const Servises = ()=>{
         {
             servises.map(cart=>{
                 return(
-                <div key={cart.id} className='wow col-6 col-md-4 col-lg-3 m-2 text-center animate__animated animate__fadeInUp animate__delay-1s'>
+                <div key={cart.id} className='wow col-6 col-md-4 col-lg-3 m-2 text-center animate__animated animate__fadeInUp animate__delay-0s'>
                     <div className=''><i className={`bx ${cart.icon} fs-1 fw-bold`}></i></div>
                     <h4 className='my-2 text-info fw-bold'>{cart.title}</h4>
                     <p className='fs-5'>{cart.text}</p>

@@ -38,6 +38,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 .text-just{
   text-align: justify;

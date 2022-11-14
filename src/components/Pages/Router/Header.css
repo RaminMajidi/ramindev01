@@ -1,5 +1,7 @@
 header{
-    height: 100vh;
+    position: fixed;
+    background-color: var(--bs-dark);
+    min-height: 100vh;
     right:0px;
     top: 0;
     z-index: 1000;
@@ -22,7 +24,7 @@ header{
 }
 
 
-@media(max-width:768px){
+@media(max-width:767px){
     header{
        right:-50%;
     }
@@ -30,9 +32,10 @@ header{
         right: 0;
     }
     .hamber{
-        display: block;
+        display: inline-block;
     }
 }
+
 
 
 

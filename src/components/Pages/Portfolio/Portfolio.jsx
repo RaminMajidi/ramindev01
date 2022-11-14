@@ -14,7 +14,7 @@ const Portfolio = () =>{
     },[]);
 
     return(
-<section className="portfolio page wow col-12 col-lg-10 col-md-9 animate__animated animate__zoomInLeft" >
+<section className="portfolio page wow col-12 col-lg-10 col-md-9 animate__animated animate__zoomIn" >
   <div className="text-info d-flex justify-content-between align-items-start fs-1 px-3 w-75 mx-auto fw-bold page-title-b"><h2>نمونه کارها</h2><i class='bx bx-code-block'></i></div>
   <div className="wow btn-container w-auto d-flex  flex-wrap justify-content-center align-items-center my-2 p-1  animate__animated animate__fadeInLeft animate__delay-1s">
 {

@@ -4,7 +4,7 @@ import pelates from "../images/pelates.jpg";
 //********************************* */
 // Start Home data
 
- export const skilsHome =  ["فرانت اند دولوپر هستم","طراح وب سایت هستم","طراح سایتهای وردپرسی هستم"," React  دولوپر هستم"];
+ export const skilsHome =  ["فرانت اند دولوپر هستم","طراح وب سایت هستم"," React  دولوپر هستم"];
 
 // End Home Data
 //********************************* */
@@ -55,7 +55,7 @@ export const portfolioData = [{id:1,title:"akskadeh",category:"React",ir_url:"ht
 // Start Contact data
 
 
-export const socialData = [{id:1,title:"telegram",url:"https://t.me/ramindev01",icon:"bxl-telegram",text:"RaminDev01"},{id:2,title:"Instagram",url:"https://www.instagram.com/ramindev01/",icon:"bxl-instagram",text:"RaminDev01"},{id:3,title:"linkedin",url:"https://www.linkedin.com/in/ramindev01/",icon:"bxl-linkedin-square",text:"RaminDev01"},{id:4,title:"GitHub",url:"https://github.com/RaminMajidi",icon:"bxl-github",text:"RaminMajidi"},{id:5,title:"Email",url:"mailto:raminmajididev01@gmail.com",icon:"bxs-envelope",text:"RaminMajididev01@gmail.com",},{id:6,title:"Contact",url:"tel:+989917572781",icon:"bxs-phone-call",text:"09917572781"}]
+export const socialData = [{id:1,title:"telegram",url:"https://t.me/ramindev01",icon:"bxl-telegram",text:"RaminDev01"},{id:2,title:"Instagram",url:"https://www.instagram.com/ramindev01/",icon:"bxl-instagram",text:"RaminDev01"},{id:3,title:"linkedin",url:"https://www.linkedin.com/in/ramindev01/",icon:"bxl-linkedin-square",text:"RaminDev01"},{id:4,title:"GitHub",url:"https://github.com/RaminMajidi",icon:"bxl-github",text:"RaminMajidi"},{id:5,title:"Email",url:"mailto:Ramindev01@gmail.com",icon:"bxs-envelope",text:"Ramindev01@gmail.com",},{id:6,title:"Contact",url:"tel:+989917572781",icon:"bxs-phone-call",text:"09917572781"}]
 
 //********************************* */
 // End Contact data

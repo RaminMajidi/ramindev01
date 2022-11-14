@@ -16,6 +16,7 @@
     animation: typing 5s ease infinite;
     overflow: hidden;
     margin-right: .5rem;
+    line-height: 40px;
 }
 .type-icon{
     font-weight: bold;
@@ -55,6 +56,6 @@
         font-size: 3rem;
     }
     .my-skils{
-        max-height:40px;
+        max-height:38px;
     }
 }

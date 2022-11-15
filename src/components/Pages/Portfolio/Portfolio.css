@@ -5,9 +5,14 @@
 
 .port-card{
     position: relative;
-    cursor: pointer;
+    cursor:help;
+    max-height:400px;
     animation-delay: .3s;
     animation-duration: 1.5s;
+}
+.port-img{
+    width: 100%;
+    max-height:400px;
 }
 .pord-desc{
     position: absolute;
@@ -26,6 +31,6 @@
 }
 .port-card:hover .pord-desc{
     width: 100%;
-    height: 100%;
+    height:100%;
     opacity: 1;
 }

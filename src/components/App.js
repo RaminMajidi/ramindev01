@@ -10,8 +10,8 @@ import Rotate from './Design/Rotate/Rotate';
 const  App = ()=> {
   const [activeMenu,setActiveMenu] = React.useState("home");
   const [loading,setLoading]=useState(false);
-  console.error = ()=>{};
-  console.log = ()=>{};
+  // console.error = ()=>{};
+  // console.log = ()=>{};
 
   useEffect(()=>{
     window.addEventListener("load",setLoading(true));
@@ -30,7 +30,6 @@ const  App = ()=> {
       ) :
        (<Loading/>)
     }
- 
   </div>
   );
 }

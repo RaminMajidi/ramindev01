@@ -1,7 +1,6 @@
 import React, { useEffect,useState } from 'react';
 import './App.css';
 import "animate.css";
-import "boxicons";
 import Loading from './Design/Loading';
 import Header from './Pages/Router/Header';
 import { ActiveContext } from './Context/ActiveContext';
@@ -31,6 +30,7 @@ const  App = ()=> {
       ) :
        (<Loading/>)
     }
+ 
   </div>
   );
 }

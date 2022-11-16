@@ -6,7 +6,7 @@ const Servises = ()=>{
 
     return(
         <div className='row my-4 p-1'>
-            <h2 className='wow b-t-n mx-auto text-info animate__animated animate__backInRight animate__delay-1s'>خدمات</h2>
+            <h2 className='wow b-t-n mx-auto text-info animate__animated animate__backInRight animate__delay-2s'>خدمات</h2>
         <div className="text-white d-flex flex-wrap justify-content-around  p-2 mx-auto mt-4 text-end">
         {
             servises.map(cart=>{

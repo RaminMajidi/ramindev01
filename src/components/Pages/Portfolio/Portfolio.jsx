@@ -25,7 +25,7 @@ const Portfolio = () =>{
     })
 }
   </div>
-  <div className="d-flex justify-content-around  p-2 flex-wrap ">
+  <div className="d-flex justify-content-around p-2 flex-wrap ">
 <PortfolioList filter={filter}/>
   </div>
 </section>

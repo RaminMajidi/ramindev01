@@ -20,10 +20,10 @@ useEffect(()=>{
               if(item.category==filter || filter=="All"){
                  return(
                        <div className={`wow port-card col-12 col-md-5 col-lg-5 my-2 animate__animated animate__zoomIn `}>
-                          <div  className='w-100 h-auto'>
-                              <img src={item.img} alt="" className='w-100 h-auto' />
-                          </div>
-                          <div className='pord-desc'>
+                          <div className='position-relative'>
+                              <img src={item.img} alt="" className=' port-img' />
+
+                              <div className='pord-desc'>
                               <h5 className='fs-md-1 text-info mt-md-2 mt-1 mx-auto'>{item.title}</h5>
                               <h6 className='fs-md-1 text-danger my-md-2 my-1 mx-auto'>{item.category}</h6>
                               <div className='d-flex flex-wrap justify-content-center'>
@@ -35,6 +35,8 @@ useEffect(()=>{
                               }
                               </div>
                           </div>
+                          </div>
+                       
                        </div>
                         )
               } 

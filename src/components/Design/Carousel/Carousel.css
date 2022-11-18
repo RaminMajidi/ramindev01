@@ -2,7 +2,7 @@
     width:100%;
     max-width: 900px;
     margin: 2rem auto;
-    box-shadow: 0 0 10px 10px var(--color-blue);
+    box-shadow: 0 0 15px 5px var(--color-blue);
 }
 .wdt{  
     width: 96% !important; 

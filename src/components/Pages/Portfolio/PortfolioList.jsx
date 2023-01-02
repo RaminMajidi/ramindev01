@@ -16,12 +16,11 @@ useEffect(()=>{
         {data ? (
           <>
           {data.map((item,i)=>{
-              console.log(item)
               if(item.category==filter || filter=="All"){
                  return(
-                       <div className={`wow port-card col-12 col-md-5 col-lg-5 my-2 animate__animated animate__zoomIn `}>
-                          <div className='position-relative'>
-                              <img src={item.img} alt="" className=' port-img' />
+                       <div className={` wow port-card col-10 col-md-5 col-lg-5 my-3 animate__animated animate__zoomIn `}>
+                          <div className=' position-relative'>
+                              <img src={item.img} alt="" className='servis-card port-img' />
 
                               <div className='pord-desc'>
                               <h5 className='fs-md-1 text-info mt-md-2 mt-1 mx-auto'>{item.title}</h5>

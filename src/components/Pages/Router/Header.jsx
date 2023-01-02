@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import "./Header.css";
 import myImg from "../../../assets/images/me.png";
+import myImg2 from "../../../assets/images/me2.jpg";
 import { BrowserRouter,Routes,Link, Route } from "react-router-dom";
 import { ActiveContext } from "../../Context/ActiveContext";
 import Home from "../Home/Home";
@@ -24,13 +25,13 @@ icon === "bx-menu" ? setIcon("bx-x") : setIcon("bx-menu");
   const {activeMenu} = useContext(ActiveContext);
     return(
         <BrowserRouter>
-<header className={`header col-6 col-lg-2 col-md-3 ${show}`}>
-<div>
+<header className={` header col-6 col-lg-2 col-md-3 ${show}`}>
+       <div>
         <i onClick={showMenu} className={`bx ${icon} text-white hamber`}></i>
         </div>
- <div className="w-100  position-relative">
-    <img className="w-100" src={myImg} alt="myImage" />
-    <h2 className="my-name text-white fs-4 p-1">رامین مجیدی</h2>
+ <div className=" w-100  position-relative">
+    <img className=" w-100" src={myImg2} alt="myImage" />
+    <h2 className=" my-name text-white fs-4 p-1">رامین مجیدی</h2>
  </div>
     <div className=" d-flex flex-column flex-shrink-0 p-3 text-white bg-dark h-100 w-100">
     <hr/>

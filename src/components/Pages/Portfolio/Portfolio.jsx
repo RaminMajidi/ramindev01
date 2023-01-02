@@ -15,8 +15,8 @@ const Portfolio = () =>{
 
     return(
 <section className="portfolio page wow col-12 col-lg-10 col-md-9 animate__animated animate__zoomIn" >
-  <div className="text-info d-flex justify-content-between align-items-start fs-1 px-3 w-75 mx-auto fw-bold page-title-b"><h2>نمونه کارها</h2><i class='bx bx-code-block'></i></div>
-  <div className="wow btn-container w-auto d-flex  flex-wrap justify-content-center align-items-center my-2 p-1  animate__animated animate__fadeInLeft animate__delay-1s">
+  <div className="neumorphism text-info d-flex justify-content-between align-items-start fs-1 p-3 w-75 mx-auto fw-bold "><h2>نمونه کارها</h2><i class='bx bx-code-block'></i></div>
+  <div className="neumorphism wow btn-container w-auto d-flex  flex-wrap justify-content-center align-items-center my-3 p-1  animate__animated animate__fadeInLeft animate__delay-1s">
 {
     categorys.map((item,i)=>{
         return(
@@ -25,7 +25,7 @@ const Portfolio = () =>{
     })
 }
   </div>
-  <div className="d-flex justify-content-around p-2 flex-wrap ">
+  <div className="neumorphism d-flex justify-content-around p-2 flex-wrap ">
 <PortfolioList filter={filter}/>
   </div>
 </section>

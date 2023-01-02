@@ -7,8 +7,7 @@ import img1 from "../../../assets/images/Certificate(01).jpg";
 import img2 from "../../../assets/images/Certificate(02).jpg";
 import img3 from "../../../assets/images/Certificate(03).jpg";
 import img4 from "../../../assets/images/Certificate(04).jpg";
-import img5 from "../../../assets/images/Certificate(05).jpg";
-import img6 from "../../../assets/images/Certificate(06).jpg";
+
 
 export class Carousel extends Component{
     render(){
@@ -25,7 +24,7 @@ export class Carousel extends Component{
     
     return (
       <>
-        <div className="wow crousel-container animate__animated animate__backInLeft animate__delay-1s">    
+        <div className=" wow crousel-container animate__animated animate__backInLeft animate__delay-1s">    
             <Slider {...settings}  > 
             <div  className="wdt">  
               <img className="img img-fluid" src= {img1} />  
@@ -38,12 +37,6 @@ export class Carousel extends Component{
             </div> 
             <div  className="wdt">  
               <img className="img img-fluid" src= {img4} />  
-            </div> 
-            <div  className="wdt">  
-              <img className="img img-fluid" src= {img5} />  
-            </div> 
-            <div  className="wdt">  
-              <img className="img img-fluid" src= {img6} />  
             </div> 
             </Slider>  
             </div>

@@ -17,7 +17,7 @@ useEffect(()=>{
 
     return(
         <section className="resume page col-12 col-lg-10 col-md-9 animate__animated  animate__fadeInRightBig " >
-            <div className="text-info d-flex justify-content-between align-items-start fs-1 px-3 w-75 mx-auto fw-bold page-title-b"><h2>تجربیات</h2><i class='bx bxs-graduation'></i></div>
+            <div className="neumorphism text-info d-flex justify-content-between align-items-start fs-1 p-3 w-75 mx-auto fw-bold"><h2>تجربیات</h2><i class='bx bxs-graduation'></i></div>
             <div className="text-end d-flex flex-wrap justify-content-around col p-2 align-items-lg-start align-items-center">
             <ResumeItem data={resumeData}/>
             </div>

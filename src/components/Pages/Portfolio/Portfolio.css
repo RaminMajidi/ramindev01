@@ -1,10 +1,15 @@
-.btn-container{
+/* .btn-container{
     border: 2px dashed var(--color-blue);
-}
+} */
 
 .port-card{
+    border-radius: 20px;
+    background: linear-gradient(145deg, #31353b, #3a3f46);
+    box-shadow:  7px 7px 5px #16181a,
+                 -7px -7px 5px #565e68;
     cursor: pointer;
     cursor:help;
+    height: max-content;
     max-height:400px;
     animation-delay: .3s;
     animation-duration: 1.5s;
@@ -12,6 +17,7 @@
 .port-img{
     width: 100%;
     max-height:400px;
+    border-radius: 20px;
 }
 
 .pord-desc{
@@ -27,6 +33,7 @@
     background-color:rgba(0, 0, 0, 0.9);
     overflow: hidden;
     transition: all 1s ease-in-out;
+    border-radius: 20px;
   
 }
 .port-card:hover .pord-desc{

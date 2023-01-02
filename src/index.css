@@ -10,6 +10,7 @@
 :root{
   --color-blue:#00a3e1;
   --bg-color : #363b41;
+  /* --bg-color : #e2e2e2; */
 }
 *{
   margin: 0;

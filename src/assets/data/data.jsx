@@ -11,7 +11,8 @@ import abohava_js from "../images/abohava-js.jpg";
 import noghte_khat from "../images/noghte-khat.jpg";
 import bmi_app from "../images/bmi-app.jpg";
 import dozGame from "../images/dozgame.jpg";
-import contacts from "../images/contacts.jpg"
+import contacts from "../images/contacts.jpg";
+import goldGallery from "../images/gold-gallery.png"
 
 //********************************* */
 // Start Home data
@@ -58,7 +59,7 @@ export const skillsData = [{id:1,name:"HTML",percent:98},{id:2,name:"CSS",percen
 export const categorys  = ["All","BootStrap","React","App","Basic Coding"];
 
 export const portfolioData = [{id:0,title:"My Resume",category:"React",ir_url:"",co_url:"https://ramindev01.netlify.app/",img:myResume},{id:1,title:"akskadeh",category:"React",ir_url:"",co_url:"https://akskadeh.netlify.app/",img:akskadeh},{id:2,title:"cargallery",category:"BootStrap",ir_url:"",co_url:"https://cargalley.netlify.app/",img:cargallery},{id:3,title:"pelates",category:"Basic Coding",ir_url:"",co_url:"https://pelates.netlify.app/",img:pelates},{
-id:4,title:"onlineazmon",category:"React",ir_url:"",co_url:"https://onlineazmon.netlify.app/",img:onlineaz},{id:5,title:"sofagallery",category:"Basic Coding",ir_url:"",co_url:"https://sofagallery.netlify.app/",img:sofgallery},{id:6,title:"abohava",category:"React",ir_url:"",co_url:"https://abohava-rj.netlify.app/",img:abohava_rj},{id:7,title:"noghteh-khat",category:"App",ir_url:"",co_url:"https://noghteh-khat.netlify.app/",img:noghte_khat},{id:8,title:"motorgallery",category:"BootStrap",ir_url:"",co_url:"https://motorgallery.netlify.app/",img:motorgallery},{id:9,title:"ToDo App",category:"App",ir_url:"",co_url:"https://todo-ad.netlify.app/",img:todoApp},{id:10,title:"AboHava-js",category:"App",ir_url:"",co_url:"https://abohava-js.netlify.app/",img:abohava_js},{id:11,title:"BMI App",category:"App",ir_url:"",co_url:"https://bmi-app-js.netlify.app/",img:bmi_app},{id:12,title:"DozGame",category:"App",ir_url:"",co_url:"https://dozgame.netlify.app/",img:dozGame},{id:13,title:"Contacts",category:"Basic Coding",ir_url:"",co_url:"https://bookcontact.netlify.app/",img:contacts}];
+id:4,title:"onlineazmon",category:"React",ir_url:"",co_url:"https://onlineazmon.netlify.app/",img:onlineaz},{id:5,title:"sofagallery",category:"Basic Coding",ir_url:"",co_url:"https://sofagallery.netlify.app/",img:sofgallery},{id:14,title:"GoldGallery",category:"Basic Coding",ir_url:"",co_url:"https://gold-gallery.netlify.app/",img:goldGallery},{id:8,title:"motorgallery",category:"BootStrap",ir_url:"",co_url:"https://motorgallery.netlify.app/",img:motorgallery},{id:6,title:"abohava",category:"React",ir_url:"",co_url:"https://abohava-rj.netlify.app/",img:abohava_rj},{id:7,title:"noghteh-khat",category:"App",ir_url:"",co_url:"https://noghteh-khat.netlify.app/",img:noghte_khat},{id:9,title:"ToDo App",category:"App",ir_url:"",co_url:"https://todo-ad.netlify.app/",img:todoApp},{id:10,title:"AboHava-js",category:"App",ir_url:"",co_url:"https://abohava-js.netlify.app/",img:abohava_js},{id:11,title:"BMI App",category:"App",ir_url:"",co_url:"https://bmi-app-js.netlify.app/",img:bmi_app},{id:12,title:"DozGame",category:"App",ir_url:"",co_url:"https://dozgame.netlify.app/",img:dozGame},{id:13,title:"Contacts",category:"Basic Coding",ir_url:"",co_url:"https://bookcontact.netlify.app/",img:contacts}];
 
 //********************************* */
 // End portfolio data

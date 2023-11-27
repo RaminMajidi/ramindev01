@@ -1,6 +1,5 @@
 import React from 'react'
 import { useAppContext } from '../../../context/app/AppContext'
-import SettingMenu from '../../design/SettingMenu/SettingMenu'
 
 const BtnSetting = () => {
     const { showSetting, toggleSetting } = useAppContext()
@@ -20,14 +19,10 @@ const BtnSetting = () => {
                 <button
                     onClick={toggleSetting}
                     onBlur={toggleHandler}
-                    className='flex justify-center items-center animate-spin-slow '>
-                    <box-icon name='cog' type='solid' color="#fff" size='sm'></box-icon>
+                    className={`flex justify-center  items-center ${showSetting ? '' : 'animate-spin-slow '}`}>
+                    <box-icon name='cog' type='solid' color="#fff" size='md'></box-icon>
                 </button>
             </div>
-            {
-                showSetting &&
-                <SettingMenu />
-            }
         </>
     )
 }

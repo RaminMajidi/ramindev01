@@ -18,6 +18,15 @@ const AppReducer = (state, action) => {
                 showSetting: !state.showSetting
             }
         }
+        case 'CHANGE_COLOR': {
+            return {
+                ...state,
+                primaryColor: action.payload
+            }
+        }
+        default: {
+            return state
+        }
     }
 }
 

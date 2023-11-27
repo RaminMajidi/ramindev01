@@ -1,4 +1,5 @@
 import { useAppContext } from "../../context/app/AppContext";
+import "./Home.css"
 
 
 const HomeDetails = ({data}) => {

@@ -6,7 +6,8 @@ const AppContext = createContext()
 const initilaState = {
     language: localStorage.getItem('language') || 'fa',
     theme: localStorage.getItem('theme') || 'light',
-    showSetting: false
+    showSetting: false,
+    primaryColor: localStorage.getItem('primaryColor') || "#0087ff"
 }
 
 const AppProvider = ({ children }) => {
@@ -23,20 +24,31 @@ const AppProvider = ({ children }) => {
         dispatch({ type: 'TOGGLE_SETTING' })
     }
 
+    function changeColor(color) {
+        dispatch({ type: 'CHANGE_COLOR', payload: color })
+    }
+
     useEffect(() => {
         i18n.changeLanguage(state.language);
         localStorage.setItem('language', state.language)
     }, [state.language])
+
     useEffect(() => {
         localStorage.setItem('theme', state.theme)
     }, [state.theme])
+
+    useEffect(() => {
+        localStorage.setItem('primaryColor', state.primaryColor)
+        document.documentElement.style.setProperty('--color-primary', state.primaryColor);
+    }, [state.primaryColor])
 
     return (
         <AppContext.Provider value={{
             ...state,
             changeLanguage,
             changeTheme,
-            toggleSetting
+            toggleSetting,
+            changeColor
         }}>
             {children}
         </AppContext.Provider>

@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: tanha;
+    src: url('../public/font/tanha/Tanha-FD-WOL.eot');
+    src: url('../public/font/tanha/Tanha-FD-WOL.eot?#iefix') format('FontName-opentype'),
+        url('../public/font/tanha/Tanha-FD-WOL.woff') format('woff'),
+        url('../public/font/tanha/Tanha-FD-WOL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('../public/font/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+:root {
+    --color-primary: rgb(0, 136, 255);
+    --color-main: #111;
+    --color-pray: #333333;
+    --color-text: #fff;
+    --color-gray: #999;
+}
+
+body.light {
+    --color-main: #fff;
+    --color-pray: #ddd;
+    --color-text: #111;
+    --color-gray: #333;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "tanha", "Poppins", Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--color-main);
+    overflow-x: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-main: #fff;
+        --color-pray: #ddd;
+        --color-text: #111;
+        --color-gray: #333;
+    }
+
+    body.dark {
+        --color-main: #111;
+        --color-pray: #333;
+        --color-text: #fff;
+        --color-gray: #999;
+    }
+
+}

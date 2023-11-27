@@ -1,19 +1,19 @@
-import React from 'react'
 import { useAppContext } from '../../../context/app/AppContext'
+import "./SettingMenu.css"
 
-
-const COLORS = ['#0087ff', '#FF9209', '#7752FE', '#F4CE14']
+const COLORS = ['#0087ff', '#FF9209', '#7752FE', '#F4CE14','#FF0303']
 
 const SettingMenu = () => {
-    const { changeColor } = useAppContext()
+    const { showSetting, changeColor } = useAppContext()
     return (
-        <div className={`flex justify-around items-center
-         absolute top-2 left-14 transition-all rounded-xl backdrop-blur-xl`}>
-            {COLORS.map(color => (
+        <div className={`flex justify-around h-12 items-center bg-[var(--color-gray)]
+         absolute top-3 pr-2 pl-10 transition-all rounded-full z-10
+          color_items backdrop-blur-xl ${showSetting ? 'open' : 'close'} `}>
+            {COLORS.map((color, index) => (
                 <span
                     key={color}
                     onClick={() => changeColor(color)}
-                    className='inline-block cursor-pointer'>
+                    className='flex justify-center items-center cursor-pointer'>
                     <box-icon
                         size='md'
                         type='solid'

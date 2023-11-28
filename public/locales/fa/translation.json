@@ -1,3 +1,16 @@
 {
-    "title":"سلام این عنوان تست است"
+    "settings": {
+        "title": "تنظیمات",
+        "selectLang": {
+            "title": "زبان",
+            "langFa": "فارسی",
+            "langEn": "انگلیسی"
+        }
+    },
+    "navbar": {
+        "home": "خانه",
+        "about": "درباره من",
+        "portfolio": "نمونه کار",
+        "contact": "ارتباط"
+    }
 }

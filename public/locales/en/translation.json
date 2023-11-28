@@ -1,3 +1,16 @@
 {
-    "title":"Hello This Is Test Title"
+    "settings": {
+        "title": "settings",
+        "selectLang": {
+            "title": "Language",
+            "langFa": "Persian",
+            "langEn": "English"
+        }
+    },
+    "navbar":{
+        "home":"Home",
+        "about":"About Me",
+        "portfolio":"Portfolio",
+        "contact":"Contact"
+    }
 }

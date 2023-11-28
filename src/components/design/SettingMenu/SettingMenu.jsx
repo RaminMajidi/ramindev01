@@ -2,22 +2,21 @@ import { useAppContext } from '../../../context/app/AppContext'
 import Modal from '../Modal/Modal'
 import "./SettingMenu.css"
 import SelectLanguage from './SelectLanguage'
-
+import { useTranslation } from "react-i18next";
 
 
 const COLORS = ['#0087ff', '#FF9209', '#7752FE', '#F4CE14', '#FF0303']
 
 const SettingMenu = () => {
+    const { t } = useTranslation();
     const { showSetting, toggleSetting, changeColor } = useAppContext()
     return (
         <Modal
-            title={"تنظیمات"}
+            title={t("settings.title")}
             open={showSetting}
             isToggle={toggleSetting}
         >
             <SelectLanguage />
-
-
         </Modal>
     )
 }

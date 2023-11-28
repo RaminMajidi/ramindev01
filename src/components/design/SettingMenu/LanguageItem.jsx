@@ -6,7 +6,7 @@ const LanguageItem = ({ language, alt, src, title }) => {
         <div className='mx-1'>
             <img
                 onClick={() => changeLanguage(language)}
-                className='w-8 h-8 rounded-full object-cover cursor-pointer'
+                className='w-7 h-7 rounded-full object-cover cursor-pointer'
                 src={src}
                 title={title}
                 alt={alt} />

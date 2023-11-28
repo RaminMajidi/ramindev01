@@ -8,7 +8,7 @@ const SelectLanguage = () => {
 
     return (
         <div className='flex justify-between items-center'>
-            <label className='text-lg text-[var(--color-text)]'>
+            <label className=' md:text-lg text-[var(--color-text)]'>
                 {t("settings.selectLang.title")}
             </label>
             <div className='flex'>

@@ -5,6 +5,9 @@
             "title": "Language",
             "langFa": "Persian",
             "langEn": "English"
+        },
+        "selectColor":{
+            "title":"Color"
         }
     },
     "navbar":{

@@ -7,7 +7,7 @@ const initilaState = {
     language: localStorage.getItem('language') || 'fa',
     theme: localStorage.getItem('theme') || 'light',
     showSetting: false,
-    primaryColor: localStorage.getItem('primaryColor') || "#0087ff"
+    primaryColor: localStorage.getItem('primaryColor') || "#0087ff",
 }
 
 const AppProvider = ({ children }) => {

@@ -3,9 +3,8 @@ import Modal from '../Modal/Modal'
 import "./SettingMenu.css"
 import SelectLanguage from './SelectLanguage'
 import { useTranslation } from "react-i18next";
+import SelectColor from './SelectColor';
 
-
-const COLORS = ['#0087ff', '#FF9209', '#7752FE', '#F4CE14', '#FF0303']
 
 const SettingMenu = () => {
     const { t } = useTranslation();
@@ -17,6 +16,7 @@ const SettingMenu = () => {
             isToggle={toggleSetting}
         >
             <SelectLanguage />
+            <SelectColor />
         </Modal>
     )
 }

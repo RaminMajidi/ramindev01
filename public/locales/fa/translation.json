@@ -5,6 +5,9 @@
             "title": "زبان",
             "langFa": "فارسی",
             "langEn": "انگلیسی"
+        },
+        "selectColor":{
+            "title":"رنگ"
         }
     },
     "navbar": {

@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <nav className="fixed z-40 bg-[var(--color-pray)] lg:bg-transparent  
         w-full lg:w-[5rem] bottom-0 right-0 lg:top-[22vh] h-[12dvh] 
-        lg:h-[max-content] lg:right-5 text-[var(--color-text)] ">
+        lg:h-[max-content]  text-[var(--color-text)] ">
             <article className="w-full h-full flex lg:flex-col items-center 
-            justify-around lg:justify-center px-2 py-3">
+            justify-around lg:justify-center px-2 py-2">
                 <NavItem
                     url="/"
                     title={'خانه'}

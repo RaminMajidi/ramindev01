@@ -6,9 +6,8 @@ const NavItem = ({ url, title, iconType, iconName }) => {
         <NavLink
             className={({ isActive }) => `animate__animated  group flex justify-center 
                        items-center transition-all duration-500 ease-in-out 
-                       cursor-pointer p-2 relative 
-                     text-slate-100 w-12 h-12 rounded-full lg:my-2 
-                       hover:bg-[var(--color-primary)] 
+                       cursor-pointer p-2 relative text-slate-100 w-12 h-12 
+                       rounded-full lg:my-2 hover:bg-[var(--color-primary)] 
                        ${isActive ? 'bg-[var(--color-primary)]' : 'bg-[var(--color-gray)]'}`
             }
             to={url}

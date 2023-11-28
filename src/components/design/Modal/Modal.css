@@ -1,0 +1,71 @@
+.modal {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    padding: 0 .5rem;
+    z-index: 1000;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+
+    /* From https://css.glass */
+    background: rgba(90, 90, 90, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(90, 90, 90, 0.3);
+    /* ****************** */
+}
+
+.modal.open {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.modal-dialog {
+    position: relative;
+    width: 100%;
+    height: 90dvh;
+    max-width: 600px;
+    padding:.5rem 1rem;
+    margin: 4dvh auto;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    /* ****************** */
+    animation: fadeIn 1.3s ease-in-out forwards;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--color-text);
+    margin-bottom: 1rem;
+}
+
+.modla-btn-close {
+    cursor: pointer;
+}
+.modal-title{
+    font-size: 1.2rem;
+    padding: .5rem;
+    color: var(--color-text);
+}
+
+@keyframes fadeIn {
+    from {
+        top: -100dvh;
+    }
+
+    to {
+        top: 0;
+    }
+}

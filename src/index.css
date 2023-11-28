@@ -35,8 +35,6 @@ body.light {
     --color-gray: #333;
 }
 
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -52,6 +50,11 @@ html {
 body {
     background-color: var(--color-main);
     overflow-x: hidden;
+    direction: rtl;
+}
+
+body.ltr {
+    direction: ltr;
 }
 
 @media (prefers-color-scheme: light) {

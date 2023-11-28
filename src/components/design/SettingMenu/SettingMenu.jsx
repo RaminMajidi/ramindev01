@@ -1,6 +1,9 @@
 import { useAppContext } from '../../../context/app/AppContext'
 import Modal from '../Modal/Modal'
 import "./SettingMenu.css"
+import SelectLanguage from './SelectLanguage'
+
+
 
 const COLORS = ['#0087ff', '#FF9209', '#7752FE', '#F4CE14', '#FF0303']
 
@@ -12,7 +15,9 @@ const SettingMenu = () => {
             open={showSetting}
             isToggle={toggleSetting}
         >
-            <p>Hello from modal</p>
+            <SelectLanguage />
+
+
         </Modal>
     )
 }

@@ -31,6 +31,12 @@ const AppProvider = ({ children }) => {
     useEffect(() => {
         i18n.changeLanguage(state.language);
         localStorage.setItem('language', state.language)
+        if (state.language != 'fa') {
+            document.body.classList.add('ltr')
+        } else {
+            document.body.classList.remove('ltr')
+        }
+
     }, [state.language])
 
     useEffect(() => {

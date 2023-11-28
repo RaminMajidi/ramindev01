@@ -17,6 +17,7 @@ const Modal = ({ isToggle, open, title, children }) => {
                         >
                             <div className="modal-content">
                                 <div className="modal-header">
+                                    <h5 className='modal-title'>{title}</h5>
                                     <span
                                         className='modla-btn-close'
                                         onClick={() => isToggle()}>
@@ -26,9 +27,10 @@ const Modal = ({ isToggle, open, title, children }) => {
                                             color='#d41a1a'
                                         ></box-icon>
                                     </span>
-                                    <h5 className='modal-title'>{title}</h5>
                                 </div>
-                                {children}
+                                <div className='px-2 py-1'>
+                                    {children}
+                                </div>
                             </div>
                         </div>
                     </div>,

@@ -18,7 +18,7 @@ const NavItem = ({ url, title, iconType, iconName }) => {
             bg-[var(--color-primary)] lg:opacity-0  
             lg:absolute w-0 right-0 lg:p-3 rounded-full 
             lg:group-hover:opacity-100 lg:group-hover:w-32 
-            text-center text-lg overflow-hidden max-h-12`}>
+            text-center text-slate-100 text-lg overflow-hidden max-h-12`}>
                 {title}
             </h2>
             <box-icon

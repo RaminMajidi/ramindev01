@@ -2,9 +2,9 @@ import BlobSvg from "../design/BlobSvg/BlobSvg"
 
 const RightSection = ({imgUrl}) => {
     return (
-        <article className="relative w-3/4 mx-auto md:w-1/2 md:max-w-[500px]">
+        <article className="relative w-full mx-auto md:w-1/2 md:max-w-[500px]">
             <BlobSvg />
-            <div className="absolute top-0 left-0 ">
+            <div className="absolute top-0 left-4">
                 <img
                     className="w-full"
                     src={imgUrl} />

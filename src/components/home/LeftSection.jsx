@@ -6,7 +6,7 @@ const LeftSection = ({ title, subTitle, desc }) => {
             <h1 className="text-2xl md:text-3xl mb-3 font-bold text-[var(--color-primary)]">
                 {title}
             </h1>
-            <h2 className="text-xl md:text-2xl mb-2 ">
+            <h2 className="text-xl md:text-2xl mb-2 font-bold text-[var(--color-gray)]">
                 {subTitle}
             </h2>
             <h5 className="text-base md:text-lg mb-2 text-justify">

@@ -1,4 +1,4 @@
-import BlobSvg from "../design/BlobSvg/BlobSvg"
+import BlobSvg from "../design/BlobSvg"
 
 const RightSection = ({imgUrl}) => {
     return (

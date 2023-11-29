@@ -25,5 +25,12 @@
     },
     "btns": {
         "btnDownload": "Download CV"
+    },
+    "pageTitle": {
+        "about": {
+            "belowTitle": "resume",
+            "topicTitle": "about",
+            "topicTitle2": "me"
+        }
     }
 }

@@ -24,6 +24,13 @@
         "contact": "ارتباط"
     },
     "btns": {
-        "btnDownload":"دانلود رزومه"
+        "btnDownload": "دانلود رزومه"
+    },
+    "pageTitle": {
+        "about": {
+            "belowTitle": "رزومه",
+            "topicTitle": "درباره",
+            "topicTitle2": "من"
+        }
     }
 }

@@ -8,13 +8,11 @@ import SettingMenu from "../../components/design/SettingMenu/SettingMenu"
 const MainLayout = () => {
     const { showSetting } = useAppContext()
     return (
-        <section className="container">
+        <section className="relative mx-auto lg:container w-full h-[88dvh] lg:h-[100dvh]">
             <BtnSetting />
             <SettingMenu />
             <Navbar />
-            <article className={`overflow-hidden w-full h-[88dvh] lg:h-[100dvh]`}>
-                <Outlet />
-            </article>
+            <Outlet />
         </section>
     )
 }

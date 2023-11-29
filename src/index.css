@@ -26,6 +26,7 @@
     --color-pray: #333333;
     --color-text: #fff;
     --color-gray: #999;
+    --font-base: "tanha"
 }
 
 body.light {
@@ -44,7 +45,7 @@ html {
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "tanha", "Poppins", Tahoma, sans-serif;
+    font-family: var(--font-base);
     color: var(--color-text);
 }
 
@@ -56,6 +57,7 @@ body {
 
 body.ltr {
     direction: ltr;
+    --font-base: "Poppins"
 }
 
 @media (prefers-color-scheme: light) {

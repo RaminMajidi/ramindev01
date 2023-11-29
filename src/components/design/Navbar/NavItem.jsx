@@ -7,7 +7,7 @@ const NavItem = ({ url, title, iconType, iconName }) => {
             className={({ isActive }) => `animate__animated  group flex justify-center 
                        items-center transition-all duration-500 ease-in-out 
                        cursor-pointer p-2 relative text-slate-100 w-12 h-12 
-                       rounded-full lg:my-2 hover:bg-[var(--color-primary)] 
+                       rounded-full lg:my-2 hover:bg-[var(--color-primary)]  
                        ${isActive ? 'bg-[var(--color-primary)]' : 'bg-[var(--color-gray)]'}`
             }
             to={url}
@@ -15,10 +15,10 @@ const NavItem = ({ url, title, iconType, iconName }) => {
         >
             <h2 className={`hidden cursor-pointer transition-all 
             duration-500 ease-in-out lg:inline-block 
-            bg-[var(--color-primary)] lg:opacity-0  
+            bg-[var(--color-primary)] lg:opacity-0 overflow-hidden
             lg:absolute w-0 right-0 lg:p-3 rounded-full 
             lg:group-hover:opacity-100 lg:group-hover:w-32 
-            text-center text-slate-100 text-lg overflow-hidden max-h-12`}>
+            text-center text-slate-100 text-lg  max-h-12`}>
                 {title}
             </h2>
             <box-icon

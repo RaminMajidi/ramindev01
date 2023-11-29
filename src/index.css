@@ -45,6 +45,7 @@ html {
     box-sizing: border-box;
     text-decoration: none;
     font-family: "tanha", "Poppins", Tahoma, sans-serif;
+    color: var(--color-text);
 }
 
 body {

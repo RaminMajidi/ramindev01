@@ -6,8 +6,14 @@
             "langFa": "فارسی",
             "langEn": "انگلیسی"
         },
-        "selectColor":{
-            "title":"رنگ"
+        "selectColor": {
+            "title": "رنگ"
+        },
+        "selectTheme": {
+            "title": "حالت نمایش",
+            "dark": "تاریک",
+            "light": "روشن",
+            "device": "مطابق دستگاه شما"
         }
     },
     "navbar": {

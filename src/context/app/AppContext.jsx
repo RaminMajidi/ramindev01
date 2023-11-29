@@ -2,6 +2,7 @@ import { useReducer, createContext, useEffect, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import AppReducer from "./AppReducer";
 
+
 const AppContext = createContext()
 const initilaState = {
     language: localStorage.getItem('language') || 'fa',
@@ -36,11 +37,26 @@ const AppProvider = ({ children }) => {
         } else {
             document.body.classList.remove('ltr')
         }
-
     }, [state.language])
 
     useEffect(() => {
         localStorage.setItem('theme', state.theme)
+        switch (state.theme) {
+            case "light":
+                document.body.classList.remove("dark")
+                document.body.classList.remove("device")
+            case "dark":
+                document.body.classList.remove("device")
+                document.body.classList.remove("light")
+            case "device":
+                document.body.classList.remove("dark")
+                document.body.classList.remove("light")
+            default:
+                document.body.classList.add(state.theme)
+
+
+
+        }
     }, [state.theme])
 
     useEffect(() => {

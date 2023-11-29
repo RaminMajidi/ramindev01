@@ -8,6 +8,12 @@
         },
         "selectColor":{
             "title":"Color"
+        },
+        "selectTheme":{
+            "title":"Theme",
+            "dark":"Dark",
+            "light":"Light",
+            "device":"By Device"
         }
     },
     "navbar":{

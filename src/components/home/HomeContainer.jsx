@@ -1,11 +1,11 @@
 import React from 'react'
 
-const HomeContainer = ({language, children }) => {
+const HomeContainer = ({ language, children }) => {
     return (
         <section
-            className={`w-full h-full flex flex-col md:justify-around md:items-center 
-               ${language == "en" ? 'md:flex-row-reverse' : 'md:flex-row'}
-               overflow-y-auto px-5 md:px-20`}
+            className={`w-full h-full flex flex-col items-center px-5
+              md:justify-around md:items-center overflow-y-auto md:px-20
+               ${language == "en" ? 'md:flex-row-reverse' : 'md:flex-row'}`}
         >
             {children}
         </section>

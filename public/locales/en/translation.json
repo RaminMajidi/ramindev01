@@ -22,5 +22,8 @@
         "about": "About",
         "portfolio": "Portfolio",
         "contact": "Contact"
+    },
+    "btns": {
+        "btnDownload": "Download CV"
     }
 }

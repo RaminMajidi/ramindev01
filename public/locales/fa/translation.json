@@ -22,5 +22,8 @@
         "about": "درباره",
         "portfolio": "نمونه کار",
         "contact": "ارتباط"
+    },
+    "btns": {
+        "btnDownload":"دانلود رزومه"
     }
 }

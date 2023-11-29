@@ -7,7 +7,7 @@ const BtnSetting = () => {
 
     
     return (
-        <button
+        <span
         title={t("settings.title")}
             onClick={toggleSetting}
             className={`absolute flex justify-center items-center
@@ -20,7 +20,7 @@ const BtnSetting = () => {
                 color="#fff"
                 size='md'>
             </box-icon>
-        </button>
+        </span>
     )
 }
 export default BtnSetting

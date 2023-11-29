@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react'
 import { Await, defer, useLoaderData } from 'react-router-dom'
-import faData from '../data/fa/homeData.json'
-import enData from '../data/en/homeData.json'
+import HOMEDATA from '../data/homeData.json'
 import HomeDetails from '../components/home/HomeDetails';
 import Loading from '../components/design/Loading/Loading';
 
@@ -11,7 +10,7 @@ const Home = () => {
     return (
         <Suspense fallback={<Loading />}>
             <Await resolve={data.homeData}>
-                {(loadHomeData) => (<HomeDetails data={loadHomeData} />)}
+                {(loadHomeData) => (<HomeDetails data={loadHomeData.data} />)}
             </Await>
         </Suspense>
     )
@@ -19,7 +18,7 @@ const Home = () => {
 
 //****start loadData*****
 async function loadHomeData() {
-    const data = await { fa: faData, en: enData }
+    const data = await { data: HOMEDATA }
     return data
 }
 //****end loadData*****

@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "fa_title": "من رامین مجیدی هستم",
+    "en_title": "I am Ramin Majidi",
+    "fa_subTitle": "برنامه نویس فرانت اند",
+    "en_subTitle": "FRONT END DEVELOPER",
+    "fa_desc": "یک توسعه دهنده وب و متخصص فرانت اند ، با بیش از ۲ سال سابقه کاربه صورت فریلنسری . دارای مهارت در پیاده سازی طرحهای مختلف به کدهای بهینه و قابل توسعه . مسلط به پیاده ساخت صفحات واکنشگرا و کاربر پسند. چالش پذیر ، مشتاق یادگیری و ارتقاع مهارتهای تخصصی و شخصی. ",
+    "en_desc": "A web developer and front-end specialist, with more than 2 years of freelance work experience. Skilled in implementing various designs into optimal and expandable codes. Proficient in implementing responsive and user-friendly pages. Challenging, eager to learn and improve professional and personal skills.",
+    "image": "images/laptop.png",
+    "fa_resumeLink": "resume.png",
+    "en_resumeLink": "resume.png"
+}

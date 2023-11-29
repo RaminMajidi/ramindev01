@@ -1,17 +1,25 @@
 import { useAppContext } from "../../context/app/AppContext";
-import BlobSvg from "../design/BlobSvg/BlobSvg"
-import myImage from "../../assets/images/my-image.png"
+import RightSection from "./RightSection";
+import LeftSection from "./LeftSection";
+import HomeContainer from "./HomeContainer";
 import "./Home.css"
 
 
 const HomeDetails = ({ data }) => {
-  console.log(data);
-  const { language, changeLanguage } = useAppContext();
-  console.log(data[language]);
+
+  const { language } = useAppContext();
+
   return (
-    <div className="">
-      <h1 className="z-20">{data[language].title}</h1>
-    </div>
+    <HomeContainer language={language}>
+      <RightSection
+        imgUrl={data?.image}
+      />
+      <LeftSection
+        title={data[language + "_title"]}
+        subTitle={data[language + "_subTitle"]}
+        desc={data[language + "_desc"]}
+      />
+    </HomeContainer>
   )
 }
 

@@ -1,7 +1,7 @@
 import { createPortal } from 'react-dom'
 import './Modal.css'
 
-const Modal = ({ isToggle, open, title, children }) => {
+const Modal = ({ isToggle, open, title, btnTitle, children }) => {
 
     return (
         <>
@@ -19,12 +19,13 @@ const Modal = ({ isToggle, open, title, children }) => {
                                 <div className="modal-header">
                                     <h5 className='modal-title'>{title}</h5>
                                     <span
+                                        title={btnTitle}
                                         className='modla-btn-close'
                                         onClick={() => isToggle()}>
                                         <box-icon
                                             size='md'
                                             name='x-circle'
-                                            color='#d41a1a'
+                                            color='var(--color-gray)'
                                         ></box-icon>
                                     </span>
                                 </div>

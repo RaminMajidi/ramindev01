@@ -1,6 +1,7 @@
 {
     "settings": {
         "title": "تنظیمات",
+        "btnClose": "بستن",
         "selectLang": {
             "title": "زبان",
             "langFa": "فارسی",

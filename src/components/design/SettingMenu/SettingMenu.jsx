@@ -11,6 +11,7 @@ const SettingMenu = () => {
     const { showSetting, toggleSetting } = useAppContext()
     return (
         <Modal
+            btnTitle={t("settings.btnClose")}
             title={t("settings.title")}
             open={showSetting}
             isToggle={toggleSetting}

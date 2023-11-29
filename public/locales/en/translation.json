@@ -1,25 +1,26 @@
 {
     "settings": {
         "title": "settings",
+        "btnClose": "Close",
         "selectLang": {
             "title": "Language",
             "langFa": "Persian",
             "langEn": "English"
         },
-        "selectColor":{
-            "title":"Color"
+        "selectColor": {
+            "title": "Color"
         },
-        "selectTheme":{
-            "title":"Theme",
-            "dark":"Dark",
-            "light":"Light",
-            "device":"By Device"
+        "selectTheme": {
+            "title": "Theme",
+            "dark": "Dark",
+            "light": "Light",
+            "device": "By Device"
         }
     },
-    "navbar":{
-        "home":"Home",
-        "about":"About Me",
-        "portfolio":"Portfolio",
-        "contact":"Contact"
+    "navbar": {
+        "home": "Home",
+        "about": "About Me",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
     }
 }

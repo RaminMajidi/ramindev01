@@ -26,11 +26,20 @@
     "btns": {
         "btnDownload": "Download CV"
     },
-    "pageTitle": {
-        "about": {
+    "about": {
+        "pageTitle": {
             "belowTitle": "resume",
             "topicTitle": "about",
             "topicTitle2": "me"
+        },
+        "pInfo":{
+            "title":"Personal Information",
+            "firstName":"FirstName",
+            "lastName":"LastName",
+            "condition":"Condition",
+            "nationality":"Nationality",
+            "address":"Address",
+            "militaryService":"Military Service"
         }
     }
 }

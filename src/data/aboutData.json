@@ -2,50 +2,37 @@
     "personalInfos": [
         {
             "id": 0,
-            "en_title": "firstName",
-            "fa_title": "نام",
+            "title": "firstName",
             "fa_value": "رامین",
             "en_value": "ramin"
         },
         {
             "id": 1,
-            "en_title": "lastName",
-            "fa_title": "نام خانوادگی",
+            "title": "lastName",
             "fa_value": "مجیدی",
             "en_value": "majidi"
         },
         {
-            "id": 2,
-            "en_title": "age",
-            "fa_title": "سن",
-            "fa_value": "27 سال",
-            "en_value": "27 years"
-        },
-        {
             "id": 3,
-            "en_title": "condition",
-            "fa_title": "وضعیت",
+            "title": "condition",
             "fa_value": "فریلنسر - در دسترس",
             "en_value": "Freelancer - available"
         },
         {
             "id": 4,
-            "en_title": "nationality",
-            "fa_title": "ملیت",
+            "title": "nationality",
             "fa_value": "ایرانی",
             "en_value": "Iranian"
         },
         {
             "id": 5,
-            "en_title": "address",
-            "fa_title": "آدرس",
+            "title": "address",
             "fa_value": "اصفهان",
             "en_value": "Esfahan"
         },
         {
             "id": 6,
-            "en_title": "military service",
-            "fa_title": "خدمت سربازی",
+            "title": "militaryService",
             "fa_value": "تمام شده",
             "en_value": "finished"
         }

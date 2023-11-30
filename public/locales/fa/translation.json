@@ -26,11 +26,20 @@
     "btns": {
         "btnDownload": "دانلود رزومه"
     },
-    "pageTitle": {
-        "about": {
+    "about": {
+        "pageTitle": {
             "belowTitle": "رزومه",
             "topicTitle": "درباره",
             "topicTitle2": "من"
+        },
+        "pInfo": {
+            "title":"اطلاعات شخصی",
+            "firstName": "نام",
+            "lastName": "نام خانوادگی",
+            "condition": "وضعیت",
+            "nationality": "ملیت",
+            "address": "آدرس",
+            "militaryService": "خدمت سربازی"
         }
     }
 }

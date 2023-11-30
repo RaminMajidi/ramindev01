@@ -62,21 +62,21 @@ body.ltr {
 
 
 /* scrollbars ------------------ */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 4px !important;
-  }
-  
-  ::-webkit-scrollbar-track{
+}
+
+::-webkit-scrollbar-track {
     background: var(--color-text);
-  }
-  
-  ::-webkit-scrollbar-thumb{
+}
+
+::-webkit-scrollbar-thumb {
     background: var(--color-primary);
-  }
-  
-  ::-webkit-scrollbar-thumb:hover{
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: var(--color-pray);
-  }
+}
 
 @media (prefers-color-scheme: light) {
     :root {

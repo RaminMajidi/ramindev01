@@ -67,74 +67,74 @@
         {
             "id": 0,
             "title": "html",
-            "img": "/images/teach/html.png"
+            "img": "images/teach/html.png"
         },
         {
             "id": 1,
             "title": "css",
-            "img": "/images/teach/css.png"
+            "img": "images/teach/css.png"
         },
         {
             "id": 2,
             "title": "javascript",
-            "img": "/images/teach/javascript.png"
+            "img": "images/teach/javascript.png"
         },
         {
             "id": 3,
             "title": "bootstrap",
-            "img": "/images/teach/Bootstrap.png"
+            "img": "images/teach/Bootstrap.png"
         },
         {
             "id": 4,
             "title": "tailwind",
-            "img": "/images/teach/tailwind.png"
+            "img": "images/teach/tailwind.png"
         },
         {
             "id": 5,
             "title": "react-js",
-            "img": "/images/teach/reactjs.png"
+            "img": "images/teach/reactjs.png"
         }
     ],
     "subSkills": [
         {
             "id": 1,
             "title": "postman",
-            "img": "/images/teach/postman.png"
+            "img": "images/teach/postman.png"
         },
         {
             "id": 2,
             "title": "swagger",
-            "img": "/images/teach/Swagger-Icon.svg"
+            "img": "images/teach/Swagger-Icon.svg"
         },
         {
             "id": 3,
             "title": "my-sql",
-            "img": "/images/teach/My-Sql.png"
+            "img": "images/teach/My-Sql.png"
         },
         {
             "id": 4,
             "title": "mongodb",
-            "img": "/images/teach/mongodb.png"
+            "img": "images/teach/mongodb.png"
         },
         {
             "id": 5,
             "title": "Git",
-            "img": "/images/teach/git.png"
+            "img": "images/teach/git.png"
         },
         {
             "id": 6,
             "title": "Redux",
-            "img": "/images/teach/redux.png"
+            "img": "images/teach/redux.png"
         },
         {
             "id": 7,
             "title": "next-js",
-            "img": "/images/teach/nextjs.png"
+            "img": "images/teach/nextjs.png"
         },
         {
             "id": 8,
             "title": "TypeScript",
-            "img": "/images/teach/typescript.png"
+            "img": "images/teach/typescript.png"
         }
     ],
     "experience": [

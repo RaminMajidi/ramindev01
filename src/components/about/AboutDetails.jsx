@@ -7,7 +7,6 @@ import SectionBottom from './sectionBottom/SectionBottom';
 
 const AboutDetails = ({ data }) => {
     const { t } = useTranslation();
-    console.log(data);
     return (
         <AboutContainer>
             <PageTitle

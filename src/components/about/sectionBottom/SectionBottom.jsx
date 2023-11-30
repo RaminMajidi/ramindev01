@@ -8,7 +8,7 @@ const SectionBottom = ({ basicSkillsData, subSkillsData, experienceData }) => {
   const { t } = useTranslation()
 
   return (
-    <section className="mt-8 w-full flex flex-col items-center border">
+    <section className="mt-8 w-full flex flex-col items-center">
       <BasicSkills
         title={t("about.titels.basicSkills")}
         data={basicSkillsData} />

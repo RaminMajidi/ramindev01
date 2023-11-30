@@ -3,7 +3,7 @@ import Title from "../Title"
 
 const SubSkills = ({ data, title }) => {
     return (
-        <article>
+        <article className="w-full">
             <Title title={title}/>
 
         </article>

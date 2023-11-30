@@ -40,23 +40,27 @@
     "sideItems": [
         {
             "id": 0,
-            "title": "سالهای فعالیت",
+            "fa_title": "سالهای فعالیت",
+            "en_title": "Years of activity",
             "value": 2
         },
         {
             "id": 1,
-            "title": "پروژه انجام شده",
+            "fa_title": "پروژه انجام شده",
+            "en_title":"The project is done",
             "value": 12
         },
         {
             "id": 2,
-            "title": "مشتری های راضی",
+            "fa_title": "مشتری های راضی",
+            "en_title":"Satisfied customers",
             "value": 8
         },
         {
             "id": 3,
-            "title": "ساعت کدنویسی",
-            "value": 2920
+            "fa_title": "ساعت کدنویسی",
+            "en_title":"Hours of coding",
+            "value": 3224
         }
     ],
     "skills": [

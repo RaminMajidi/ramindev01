@@ -7,7 +7,7 @@ const InfoList = ({ data }) => {
     const { t } = useTranslation();
     return (
         <div>
-            <ul className="pr-3 my-3 flex flex-wrap w-full">
+            <ul className=" flex flex-wrap w-full">
                 {data.map((item) => (
                     <InfoItem
                         key={"personal_" + item.id}

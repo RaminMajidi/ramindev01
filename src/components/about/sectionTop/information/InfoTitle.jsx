@@ -1,7 +1,7 @@
 
 const InfoTitle = ({ title }) => {
     return (
-        <h2 className="text-[var(--color-text)] p-1 pr-3 text-2xl font-bold">
+        <h2 className="text-[var(--color-text)] text-2xl font-bold mb-2">
             {title}
         </h2>
     )

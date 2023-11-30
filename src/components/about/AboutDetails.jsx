@@ -5,10 +5,7 @@ import { useTranslation } from "react-i18next";
 import SectionTop from './sectionTop/SectionTop';
 
 const AboutDetails = ({ data }) => {
-  
     const { t } = useTranslation();
-
-    console.log(data);
     return (
         <AboutContainer>
             <PageTitle

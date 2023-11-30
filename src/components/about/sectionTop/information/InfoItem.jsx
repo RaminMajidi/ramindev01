@@ -1,8 +1,8 @@
 
 const InfoItem = ({ title, value }) => {
     return (
-        <li className="w-full min-[460px]:w-[50%] p-1 text-base 
-            md:text-lg font-bold">
+        <li className="w-full min-[600px]:w-[50%] px-5 py-2 text-base 
+            md:text-lg md:px-2 font-bold">
             <span className="text-[var(--color-gray)]">
                 {title}
             </span>

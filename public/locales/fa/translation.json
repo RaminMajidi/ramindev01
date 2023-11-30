@@ -33,13 +33,18 @@
             "topicTitle2": "من"
         },
         "pInfo": {
-            "title":"اطلاعات شخصی",
+            "title": "اطلاعات شخصی",
             "firstName": "نام",
             "lastName": "نام خانوادگی",
             "condition": "وضعیت",
             "nationality": "ملیت",
             "address": "آدرس",
             "militaryService": "خدمت سربازی"
+        },
+        "titels": {
+            "basicSkills": "مهارتهای اصلی",
+            "subSkills": "آشنا با",
+            "experience": "تجربه و آموزش"
         }
     }
 }

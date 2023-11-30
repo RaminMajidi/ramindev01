@@ -32,14 +32,19 @@
             "topicTitle": "about",
             "topicTitle2": "me"
         },
-        "pInfo":{
-            "title":"Personal Information",
-            "firstName":"FirstName",
-            "lastName":"LastName",
-            "condition":"Condition",
-            "nationality":"Nationality",
-            "address":"Address",
-            "militaryService":"Military Service"
+        "pInfo": {
+            "title": "Personal Information",
+            "firstName": "FirstName",
+            "lastName": "LastName",
+            "condition": "Condition",
+            "nationality": "Nationality",
+            "address": "Address",
+            "militaryService": "Military Service"
+        },
+        "titels": {
+            "basicSkills": "Basic Skills",
+            "subSkills": "Familiar With",
+            "experience": "Experience And Training"
         }
     }
 }

@@ -47,23 +47,23 @@
         {
             "id": 1,
             "fa_title": "پروژه انجام شده",
-            "en_title":"The project is done",
+            "en_title": "The project is done",
             "value": 12
         },
         {
             "id": 2,
             "fa_title": "مشتری های راضی",
-            "en_title":"Satisfied customers",
+            "en_title": "Satisfied customers",
             "value": 8
         },
         {
             "id": 3,
             "fa_title": "ساعت کدنویسی",
-            "en_title":"Hours of coding",
+            "en_title": "Hours of coding",
             "value": 3224
         }
     ],
-    "skills": [
+    "basicSkills": [
         {
             "id": 0,
             "title": "html",
@@ -93,24 +93,9 @@
             "id": 5,
             "title": "react-js",
             "img": "/images/teach/reactjs.png"
-        },
-        {
-            "id": 6,
-            "title": "Redux",
-            "img": "/images/teach/redux.png"
-        },
-        {
-            "id": 7,
-            "title": "next-js",
-            "img": "/images/teach/nextjs.png"
-        },
-        {
-            "id": 8,
-            "title": "TypeScript",
-            "img": "/images/teach/typescript.png"
         }
     ],
-    "subskills": [
+    "subSkills": [
         {
             "id": 1,
             "title": "postman",
@@ -135,9 +120,24 @@
             "id": 5,
             "title": "Git",
             "img": "/images/teach/git.png"
+        },
+        {
+            "id": 6,
+            "title": "Redux",
+            "img": "/images/teach/redux.png"
+        },
+        {
+            "id": 7,
+            "title": "next-js",
+            "img": "/images/teach/nextjs.png"
+        },
+        {
+            "id": 8,
+            "title": "TypeScript",
+            "img": "/images/teach/typescript.png"
         }
     ],
-    "exANDed": [
+    "experience": [
         {
             "id": 0,
             "title": "کاردانی - مهندسی نرم افزار",

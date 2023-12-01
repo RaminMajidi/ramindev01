@@ -8,7 +8,7 @@ const ItemBorder = () => {
                   bxs-briefcase'>
             </i>
             <span className="absolute top-1 right-[0.85rem] rounded-3xl 
-                    w-1 bg-[var(--color-primary)] h-full border 
+                    w-1 bg-[var(--color-primary)] h-[90%] border 
                     border-[var(--color-primary)]">
             </span>
         </div>

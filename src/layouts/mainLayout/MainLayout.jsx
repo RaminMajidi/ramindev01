@@ -8,7 +8,7 @@ const MainLayout = () => {
     return (
         <main className="w-full h-[88dvh] lg:min-h-[100dvh] 
         overflow-x-hidden overflow-y-scroll md:overflow-y-visible">
-            <section className="relative w-full mx-auto container">
+            <section className="relative w-full h-full mx-auto container">
                 <BtnSetting />
                 <SettingMenu />
                 <Navbar />

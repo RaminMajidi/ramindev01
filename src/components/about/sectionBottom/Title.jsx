@@ -3,7 +3,7 @@ import React from 'react'
 const Title = ({ title }) => {
     return (
         <>
-            <hr className='w-[70%] mx-auto my-8 border-2 
+            <hr className='mx-auto my-8 border-2 
             rounded-full border-[var(--color-gray)]'
             />
             <h3 className='text-[var(--color-text)] font-bold

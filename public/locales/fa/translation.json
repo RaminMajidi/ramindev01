@@ -46,5 +46,12 @@
             "subSkills": "آشنا با",
             "experience": "تجربه و آموزش"
         }
+    },
+    "portfolios": {
+        "pageTitle": {
+            "belowTitle": "آثار",
+            "topicTitle": "نمونه",
+            "topicTitle2": "کارها"
+        }
     }
 }

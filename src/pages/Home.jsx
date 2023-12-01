@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 import { Await, defer, useLoaderData } from 'react-router-dom'
-import HOMEDATA from '../data/homeData.json'
+import HOME_DATA from '../data/homeData.json'
 import HomeDetails from '../components/home/HomeDetails';
 import Loading from '../components/design/Loading/Loading';
 
@@ -18,7 +18,7 @@ const Home = () => {
 
 //****start loadData*****
 async function loadHomeData() {
-    const data = await { data: HOMEDATA }
+    const data = await { data: HOME_DATA }
     return data
 }
 //****end loadData*****

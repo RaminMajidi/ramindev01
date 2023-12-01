@@ -46,5 +46,12 @@
             "subSkills": "Familiar With",
             "experience": "Experience And Training"
         }
+    },
+    "portfolios": {
+        "pageTitle": {
+            "belowTitle": "WORKS",
+            "topicTitle": "MY",
+            "topicTitle2": "PORTFOLIO"
+        }
     }
 }

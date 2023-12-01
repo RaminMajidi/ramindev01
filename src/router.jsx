@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "./layouts/mainLayout/MainLayout";
 import Home, { homeLoader } from "./pages/Home";
 import About, { aboutLoader } from "./pages/About";
-import Portfolio from "./pages/Portfolio";
+import Portfolio, { portfolioLoader } from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
 
@@ -26,6 +26,7 @@ const router = createBrowserRouter([
             {
                 path:"portfolio",
                 element:<Portfolio/>,
+                loader:portfolioLoader
             },
             {
                 path:"contact",

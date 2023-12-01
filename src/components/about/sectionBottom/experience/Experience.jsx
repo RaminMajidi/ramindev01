@@ -9,7 +9,7 @@ const Experience = ({ data, title }) => {
     const { language } = useAppContext()
 
     return (
-        <article className="w-full p-1">
+        <article className={`w-full`}>
             <Title title={title} />
             <ExperienceList>
                 {data.map(item => (

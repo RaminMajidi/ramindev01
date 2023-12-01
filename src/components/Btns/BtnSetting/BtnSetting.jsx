@@ -8,9 +8,9 @@ const BtnSetting = () => {
         <span
             title={t("settings.title")}
             onClick={toggleSetting}
-            className={`absolute flex justify-center items-center
+            className={`fixed flex justify-center items-center
                     w-12 h-12 bg-[var(--color-gray)] rounded-full 
-                    top-2 left-2 lg:left-0 cursor-pointer z-20 
+                    top-3 left-3  cursor-pointer z-50 
                     ${showSetting ? 'bg-[var(--color-primary)]' :
                     'animate-spin-slow  bg-[var(--color-gray)]'}`}>
             <box-icon

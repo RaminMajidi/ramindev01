@@ -78,6 +78,11 @@ body.ltr {
     background: var(--color-pray);
 }
 
+
+.work_rtl{
+    direction: rtl !important;
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --color-main: #fff;

@@ -10,7 +10,7 @@ const HomeDetails = ({ data }) => {
   const { language } = useAppContext();
 
   return (
-    <HomeContainer language={language}>
+    <HomeContainer>
       <RightSection
         imgUrl={data?.image}
       />

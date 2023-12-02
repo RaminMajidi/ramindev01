@@ -6,10 +6,10 @@ const LeftSection = ({ title, subTitle, desc }) => {
             <h1 className="text-2xl md:text-3xl mb-3 font-bold text-[var(--color-primary)]">
                 {title}
             </h1>
-            <h2 className="text-xl md:text-2xl mb-2 font-bold text-[var(--color-gray)]">
+            <h2 className="text-xl md:text-2xl mb-2 font-bold ">
                 {subTitle}
             </h2>
-            <h5 className="text-base md:text-lg mb-2 text-justify">
+            <h5 className="text-base md:text-lg mb-2 text-justify text-[var(--color-gray)]">
                 {desc}
             </h5>
             <BtnDownload />

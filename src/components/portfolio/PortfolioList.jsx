@@ -7,7 +7,9 @@ const PortfolioList = ({ data }) => {
         <article className="grid grid-cols-12 gap-4 pb-10">
             {
                 data?.map((item) => (
-                    <PortfolioItem item={item} />
+                    <PortfolioItem
+                        key={item.id}
+                        item={item} />
                 ))
             }
         </article>

@@ -26,7 +26,7 @@ const ListItem = ({ iconName, iconType, title, text, isLink = false, link, font 
                         </Link>
                     ) :
                     (
-                        <p className={`py-1 lg:font-bold text-[var(--color-gray)]`}>
+                        <p className={` py-1 lg:font-bold text-[var(--color-gray)]`}>
                             {text}
                         </p>
                     )

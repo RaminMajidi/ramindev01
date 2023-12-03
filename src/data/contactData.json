@@ -47,32 +47,32 @@
             "fa_title": "تلگرام",
             "en_title": "Telegram",
             "link": "https://t.me/ramindev01",
-            "icon_name": "telegram",
-            "icon_type": ""
+            "iconName": "telegram",
+            "iconType": "logo"
         },
         {
             "id": 2,
             "fa_title": "اینستاگرام",
             "en_title": "Instagram",
             "link": "https://www.instagram.com/ramindev01/",
-            "icon_name": "instagram-alt",
-            "icon_type": ""
+            "iconName": "instagram",
+            "iconType": "logo"
         },
         {
             "id": 3,
             "fa_title": "گیت هاب",
             "en_title": "GitHub",
             "link": "https://github.com/RaminMajidi",
-            "icon_name": "github",
-            "icon_type": ""
+            "iconName": "github",
+            "iconType": "logo"
         },
         {
             "id": 4,
             "fa_title": "لینکدین",
             "en_title": "LinkedIn",
             "link": "https://www.linkedin.com/in/ramindev01/",
-            "icon_name": "linkedin-square",
-            "icon_type": "logo"
+            "iconName": "linkedin-square",
+            "iconType": "logo"
         }
     ]
 }

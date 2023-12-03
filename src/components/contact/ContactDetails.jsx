@@ -4,6 +4,7 @@ import PageTitle from "../../components/design/PageTitle"
 import { useAppContext } from "../../context/app/AppContext"
 import ContactText from "./ContactText";
 import ContactList from "./ContactList";
+import SocialList from "./SocialList";
 
 
 const ContactDetails = ({ data }) => {
@@ -25,6 +26,9 @@ const ContactDetails = ({ data }) => {
                     />
                     <ContactList
                         links={data.linkItems}
+                    />
+                    <SocialList 
+                    data={data.Socials}
                     />
 
                 </ContactContainer>

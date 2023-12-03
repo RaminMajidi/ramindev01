@@ -63,5 +63,12 @@
         "languages": "Languages",
         "dependencies": "Dependencies",
         "description": "Description"
+    },
+    "contact": {
+        "pageTitle": {
+            "belowTitle": "Contact",
+            "topicTitle": "get in",
+            "topicTitle2": "touch"
+        }
     }
 }

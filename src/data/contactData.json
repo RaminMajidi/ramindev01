@@ -1,61 +1,78 @@
 {
-"subTitle":[
-{
-"id":1,
-"title":"خجالتی نباش !",
-"desc":"با خیال راحت با من در تماس باشید. من همیشه آماده بحث در مورد پروژه های جدید، ایده های خلاقانه یا فرصت هایی هستم تا بخشی از چشم اندازهای شما باشم."
+    "subTitle": {
+        "id": 1,
+        "fa_title": "خجالتی نباش !",
+        "en_title": "Do not be shy !",
+        "fa_desc": "با خیال راحت با من در تماس باشید. من همیشه آماده بحث در مورد پروژه های جدید، ایده های خلاقانه یا فرصت هایی هستم تا بخشی از چشم اندازهای شما باشم.",
+        "en_desc": "Feel free to contact me. I am always ready to discuss new projects, creative ideas or opportunities to be a part of your vision."
+    },
+    "linkItems": [
+        {
+            "id": 0,
+            "fa_title": "نشانی",
+            "en_title": "Address",
+            "fa_text": "ایران-اصفهان",
+            "en_text": "Iran,Esfahan",
+            "link": "",
+            "iconName": "map-pin",
+            "iconType": "solid",
+            "isLink": false
+        },
+        {
+            "id": 1,
+            "fa_title": "ایمیل",
+            "en_title": "Email",
+            "fa_text": "ramindev01@gmail.com",
+            "en_text": "ramindev01@gmail.com",
+            "link": "mailto:ramindev01@gmail.com",
+            "iconName": "envelope",
+            "iconType": "solid",
+            "isLink": true
+        },
+        {
+            "id": 2,
+            "fa_title": "تلفن",
+            "en_title": "Phone",
+            "fa_text": "09917572781",
+            "en_text": "09917572781",
+            "link": "Tel:+989917572781",
+            "iconName": "phone-call",
+            "iconType": "",
+            "isLink": true
+        }
+    ],
+    "Socials": [
+        {
+            "id": 1,
+            "fa_title": "تلگرام",
+            "en_title": "Telegram",
+            "link": "https://t.me/ramindev01",
+            "icon_name": "telegram",
+            "icon_type": ""
+        },
+        {
+            "id": 2,
+            "fa_title": "اینستاگرام",
+            "en_title": "Instagram",
+            "link": "https://www.instagram.com/ramindev01/",
+            "icon_name": "instagram-alt",
+            "icon_type": ""
+        },
+        {
+            "id": 3,
+            "fa_title": "گیت هاب",
+            "en_title": "GitHub",
+            "link": "https://github.com/RaminMajidi",
+            "icon_name": "github",
+            "icon_type": ""
+        },
+        {
+            "id": 4,
+            "fa_title": "لینکدین",
+            "en_title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/ramindev01/",
+            "icon_name": "linkedin-square",
+            "icon_type": "logo"
+        }
+    ]
 }
-],
-"stringItems":[
-{
-    "id":1,
-    "title":"نشانی :",
-    "text":"اصفهان - شهرستان لنجان",
-    "icon_name":"bx bxs-map-pin"
-}
-],
-"linkItems":[
-{
-"id":1,
-"title":"ایمیل :",
-"text":"ramindev01@gmail.com",
-"link":"mailto:ramindev01@gmail.com",
-"icon_name":"bx bxs-envelope"
-},
-{
-"id":2,
-"title":"تلفن :",
-"text":"09917572781",
-"link":"Tel:+989917572781",
-"icon_name":"bx bxs-phone-call"
-}
-],
-"Socials":[
-{
-"id":1,
-"title":"تلگرام",
-"link":"https://t.me/ramindev01",
-"icon_name":"bx bxl-telegram"
-},
-{
-"id":2,
-"title":"اینستاگرام",
-"link":"https://www.instagram.com/ramindev01/",
-"icon_name":"bx bxl-instagram-alt"
-},
-{
-"id":3,
-"title":"گیت هاب",
-"link":"https://github.com/RaminMajidi",
-"icon_name":"bx bxl-github"
-},
-{
-"id":4,
-"title":"لینکدین",
-"link":"https://www.linkedin.com/in/ramindev01/",
-"icon_name":"bx bxl-linkedin-square",
-"icon_type":"logo"
-}
-]
-}
-

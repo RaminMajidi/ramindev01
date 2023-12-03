@@ -39,7 +39,7 @@
                 "axios",
                 "redux"
             ],
-            "url": "https://tiarazar.com/",
+            "url": "https://azingold.com",
             "coverImg": "images/portfolio/admin-tiarazar.png",
             "fa_desc": "پنل ادمین برای اپلیکیشن فروشگاهی ، به صورت  SPA با اسفاده از  Rract js  و BootStrap . همچنین از پکیج هایی مانند axios , Resdux و ... نیز در این پروژه استفاده شده است.",
             "en_desc": "Admin panel for store application, as SPA using Rract js and BootStrap. Also, packages such as axios, Resdux, etc. have been used in this project.",

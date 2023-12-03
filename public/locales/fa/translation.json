@@ -63,5 +63,12 @@
         "languages": "زبان ها",
         "dependencies": "وابستگی ها",
         "description": "توضیحات"
+    },
+    "contact": {
+        "pageTitle": {
+            "belowTitle": "ارتباط",
+            "topicTitle": "با من",
+            "topicTitle2": "تماس بگیر"
+        }
     }
 }

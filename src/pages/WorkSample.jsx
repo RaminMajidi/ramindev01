@@ -67,7 +67,7 @@ const WorkSample = () => {
 
                             >
                                 <Link
-                                    className="text-left text-[var(--color-primary)]"
+                                    className="text-blue-500"
                                     to={data?.url}
                                     target={"_blank"}>
                                     {t("workSampel.link_text")}
@@ -101,7 +101,6 @@ const WorkSample = () => {
                     </WSDetails>
                 </WSContainer>
             }
-
         </>
     )
 }

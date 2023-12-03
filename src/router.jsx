@@ -3,7 +3,7 @@ import MainLayout from "./layouts/mainLayout/MainLayout";
 import Home, { homeLoader } from "./pages/Home";
 import About, { aboutLoader } from "./pages/About";
 import Portfolio, { portfolioLoader } from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import Contact, { contactLoader } from "./pages/Contact";
 import WorkSample from "./pages/WorkSample";
 import NotFound from "./pages/NotFound";
 
@@ -37,6 +37,7 @@ const router = createBrowserRouter([
             {
                 path: "contact",
                 element: <Contact />,
+                loader:contactLoader
             },
             {
                 path: "*",

@@ -67,74 +67,80 @@
         {
             "id": 0,
             "title": "html",
-            "img": "images/teach/html.png"
+            "img": "images/teach/html.svg"
         },
         {
             "id": 1,
             "title": "css",
-            "img": "images/teach/css.png"
+            "img": "images/teach/css.svg"
         },
         {
             "id": 2,
             "title": "javascript",
-            "img": "images/teach/javascript.png"
+            "img": "images/teach/javascript.svg"
         },
         {
             "id": 3,
             "title": "bootstrap",
-            "img": "images/teach/Bootstrap.png"
+            "img": "images/teach/Bootstrap.svg"
         },
         {
             "id": 4,
             "title": "tailwind",
-            "img": "images/teach/tailwind.png"
+            "img": "images/teach/tailwind.svg"
         },
         {
             "id": 5,
             "title": "react-js",
-            "img": "images/teach/reactjs.png"
+            "img": "images/teach/reactjs.svg"
         }
     ],
     "subSkills": [
         {
             "id": 1,
             "title": "postman",
-            "img": "images/teach/postman.png"
-        },
-        {
-            "id": 2,
-            "title": "swagger",
-            "img": "images/teach/Swagger-Icon.svg"
+            "img": "images/teach/postman.svg"
         },
         {
             "id": 3,
             "title": "my-sql",
-            "img": "images/teach/My-Sql.png"
+            "img": "images/teach/My-Sql.svg"
         },
         {
             "id": 4,
             "title": "mongodb",
-            "img": "images/teach/mongodb.png"
+            "img": "images/teach/mongodb.svg"
         },
         {
             "id": 5,
             "title": "Git",
-            "img": "images/teach/git.png"
+            "img": "images/teach/git.svg"
         },
         {
             "id": 6,
             "title": "Redux",
-            "img": "images/teach/redux.png"
+            "img": "images/teach/redux.svg"
         },
         {
             "id": 7,
-            "title": "next-js",
-            "img": "images/teach/nextjs.png"
+            "title": "next js",
+            "img": "images/teach/nextjs.svg"
         },
         {
             "id": 8,
             "title": "TypeScript",
-            "img": "images/teach/typescript.png"
+            "img": "images/teach/typescript.svg"
+        },
+        {
+            "id": 9,
+            "title": "Express js",
+            "img": "images/teach/express.svg"
+        }
+        ,
+        {
+            "id":10,
+            "title": "Node js",
+            "img": "images/teach/nodejs.svg"
         }
     ],
     "experience": [

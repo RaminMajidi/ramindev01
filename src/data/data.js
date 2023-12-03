@@ -6,3 +6,5 @@ export const COLORS = [
     '#ffd400',
     '#FF0303'
 ]
+
+export const FONT_POPPINS = "font-[Poppins]"

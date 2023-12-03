@@ -53,5 +53,15 @@
             "topicTitle": "MY",
             "topicTitle2": "PORTFOLIO"
         }
+    },
+    "workSampel": {
+        "title": "Title",
+        "category": "Category",
+        "year": "Yera",
+        "link": "Link",
+        "link_text": "Click to view",
+        "languages": "Languages",
+        "dependencies": "Dependencies",
+        "description": "Description"
     }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const WSDetails = ({ children }) => {
     return (
-        <article className='w-full mt-6'>
+        <article className='w-full pt-7 pb-14 px-2'>
             {children}
         </article>
     )

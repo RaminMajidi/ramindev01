@@ -53,5 +53,15 @@
             "topicTitle": "نمونه",
             "topicTitle2": "کارها"
         }
+    },
+    "workSampel": {
+        "title": "عنوان",
+        "category": "دسته",
+        "year": "سال",
+        "link": "لینک",
+        "link_text": "برای مشاهده کلیک کنید",
+        "languages": "زبان ها",
+        "dependencies": "وابستگی ها",
+        "description": "توضیحات"
     }
 }

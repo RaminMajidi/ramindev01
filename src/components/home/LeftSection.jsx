@@ -6,7 +6,7 @@ const LeftSection = ({ title, subTitle, desc }) => {
         <motion.article
             initial={{ x: 200, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1.3 }}
+            transition={{ duration: .5 }}
             className="relative  pb-2 md:w-1/2 max-w-[500px]"
         >
             <h1 className="text-2xl md:text-3xl mb-3 font-bold text-[var(--color-primary)]">

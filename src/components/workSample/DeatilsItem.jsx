@@ -5,7 +5,7 @@ const DeatilsItem = ({ title, value, children, iconName, iconType, valueFont }) 
         <motion.div
             initial={{ scale: -1, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1.4 }}
+            transition={{ duration: 0.7 }}
             className={`my-1 flex `}
         >
             <span className='px-1'>

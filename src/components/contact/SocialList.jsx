@@ -11,7 +11,7 @@ const SocialList = ({ data }) => {
         <motion.div
             initial={{ scale: -1, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1.8 }}
+            transition={{ duration: 1 }}
             className='flex justify-start items-center px-2 my-6 '>
             {data?.map(item => (
                 <SocialItem

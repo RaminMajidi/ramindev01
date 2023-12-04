@@ -7,7 +7,7 @@ const Title = ({ title }) => {
         <motion.div
             initial={{ scale: -1, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.7 }}
         >
             <hr className='mx-auto my-8 border-2 
             rounded-full border-[var(--color-pray)]'

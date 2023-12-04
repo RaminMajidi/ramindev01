@@ -6,7 +6,7 @@ const RightSection = ({ imgUrl }) => {
         <motion.article
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.3 }}
             className="relative w-full mx-auto md:w-1/2 max-w-[500px]"
 
         >
@@ -14,7 +14,7 @@ const RightSection = ({ imgUrl }) => {
             <motion.div
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1.3 }}
+                transition={{ duration: 0.5 }}
                 className="absolute top-0 left-4">
                 <img
                     className="w-full"

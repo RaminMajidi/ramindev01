@@ -8,7 +8,7 @@ const ListItem = ({ iconName, iconType, title, text, isLink = false, link, font 
         <motion.div
             initial={{ scale: -1, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1.5 }}
+            transition={{ duration: 0.7 }}
             className="flex w-full items-center my-1">
             <div>
                 <box-icon

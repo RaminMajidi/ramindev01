@@ -5,7 +5,7 @@ const WSBaner = ({ url, title }) => {
         <motion.div
             initial={{ top: -200, opacity: 0 }}
             animate={{ top: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className='relative rounded-2xl bg-[var(--color-primary)] 
                        w-full md:h-[65dvh]'>
             <img

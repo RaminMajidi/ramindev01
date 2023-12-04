@@ -5,9 +5,8 @@ const PageTitle = ({ topicTitle, topicTitle2, belowTitle }) => {
 
     return (
         <motion.div
-            initial={{ y: -200, opacity: 0 }}
+            initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: .5 }}
             className=" w-full text-center relative py-1 uppercase ">
             <h2 className={`text-center z-10 text-[var(--color-text)] 
                   absolute w-full font-bold text-3xl md:text-5xl 

@@ -5,7 +5,7 @@ const Filters = ({ categorys, filter, filterHandeler, language }) => {
         <motion.div
         initial={{ scale: -1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className={`w-full flex justify-center mx-auto my-10
          flex-wrap ${language == "fa" ? 'flex-row-reverse' : 'flex-row'}`}>
             {

@@ -1,8 +1,14 @@
 import React from 'react'
+import { motion } from "framer-motion"
 
 const Title = ({ title }) => {
     return (
-        <>
+
+        <motion.div
+            initial={{ scale: -1, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1 }}
+        >
             <hr className='mx-auto my-8 border-2 
             rounded-full border-[var(--color-pray)]'
             />
@@ -11,7 +17,9 @@ const Title = ({ title }) => {
             >
                 {title}
             </h3>
-        </>
+        </motion.div>
+
+
     )
 }
 

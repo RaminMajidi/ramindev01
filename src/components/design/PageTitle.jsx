@@ -1,8 +1,14 @@
+import { motion } from "framer-motion"
+
 
 const PageTitle = ({ topicTitle, topicTitle2, belowTitle }) => {
 
     return (
-        <div className=" w-full text-center relative py-2 uppercase ">
+        <motion.div
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: .5 }}
+            className=" w-full text-center relative py-1 uppercase ">
             <h2 className={`text-center z-10 text-[var(--color-text)] 
                   absolute w-full font-bold text-3xl md:text-5xl 
                   lg:text-6xl mt-5 lg:mt-10`}>
@@ -16,7 +22,7 @@ const PageTitle = ({ topicTitle, topicTitle2, belowTitle }) => {
             lg:text-8xl font-bold tracking-widest opacity-20 mx-auto mt-1">
                 {belowTitle}
             </span>
-        </div>
+        </motion.div>
     )
 }
 

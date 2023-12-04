@@ -9,6 +9,8 @@ import FlexRowWrap from "../components/portfolio/FlexRowWrap"
 import { useTranslation } from "react-i18next"
 import { FONT_POPPINS } from "../data/data"
 import { useAppContext } from "../context/app/AppContext"
+import BtnBack from "../components/Btns/BtnBack/BtnBack"
+
 
 const WorkSample = () => {
     const { t } = useTranslation()
@@ -95,9 +97,12 @@ const WorkSample = () => {
                                     iconType="solid"
                                     title={t("workSampel.description")}
                                     value={data[language + "_desc"]}
+
                                 />
+
                             }
                         </FlexRowWrap>
+                        <BtnBack />
                     </WSDetails>
                 </WSContainer>
             }

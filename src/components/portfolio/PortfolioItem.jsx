@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const PortfolioItem = ({ item }) => {
     return (
@@ -8,16 +9,23 @@ const PortfolioItem = ({ item }) => {
             to={`/Portfolio/${item.title}`}
             state={item}
         >
-            <div className='absolute w-full h-full bg-[var(--color-primary)] rounded-xl
+            <motion.div
+                className='w-full h-full'
+                initial={{ scale: -1, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 1.8 }}
+            >
+                <div className='absolute w-full h-full bg-[var(--color-primary)] rounded-xl
             flex justify-center items-center opacity-0 group-hover:opacity-90
             transition-all ease-in-out duration-700'>
-                <h3 className='text-2xl font-["Poppins"] text-white'>
-                    {item.title}
-                </h3>
-            </div>
-            <img
-                className='w-full h-full rounded-xl'
-                src={item.coverImg} alt="" />
+                    <h3 className='text-2xl font-["Poppins"] text-white'>
+                        {item.title}
+                    </h3>
+                </div>
+                <img
+                    className='w-full h-full rounded-xl'
+                    src={item.coverImg} alt="" />
+            </motion.div>
         </Link>
     )
 }

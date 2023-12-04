@@ -24,7 +24,8 @@
         "contact": "Contact"
     },
     "btns": {
-        "btnDownload": "Download CV"
+        "btnDownload": "Download CV",
+        "btnBack": "Previous Page"
     },
     "about": {
         "pageTitle": {

@@ -26,7 +26,7 @@ const BtnDownload = () => {
       <span
         className="inline-block absolute left-0 w-0 h-12 transition-all
            duration-500 group-hover:w-full group-hover:bg-[var(--color-primary)]
-            group-focus:w-full group-focus:bg-[var(--color-orange)]" >
+            group-focus:w-full" >
       </span>
     </button>
   )

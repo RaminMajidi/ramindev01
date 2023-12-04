@@ -8,22 +8,24 @@ import SectionBottom from './sectionBottom/SectionBottom';
 const AboutDetails = ({ data }) => {
     const { t } = useTranslation();
     return (
-        <AboutContainer>
+        <>
             <PageTitle
                 topicTitle={t("about.pageTitle.topicTitle") + " "}
                 topicTitle2={t("about.pageTitle.topicTitle2")}
                 belowTitle={t("about.pageTitle.belowTitle")}
             />
-            <SectionTop
-                personalData={data.personalInfos}
-                sideData={data.sideItems}
-            />
-            <SectionBottom
-                basicSkillsData={data.basicSkills}
-                subSkillsData={data.subSkills}
-                experienceData={data.experience}
-            />
-        </AboutContainer>
+            <AboutContainer>
+                <SectionTop
+                    personalData={data.personalInfos}
+                    sideData={data.sideItems}
+                />
+                <SectionBottom
+                    basicSkillsData={data.basicSkills}
+                    subSkillsData={data.subSkills}
+                    experienceData={data.experience}
+                />
+            </AboutContainer>
+        </>
     )
 }
 

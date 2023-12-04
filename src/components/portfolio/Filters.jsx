@@ -1,8 +1,12 @@
-import React from 'react'
+import { motion } from "framer-motion";
 
 const Filters = ({ categorys, filter, filterHandeler, language }) => {
     return (
-        <div className={`w-full flex justify-center mx-auto my-10
+        <motion.div
+        initial={{ scale: -1, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className={`w-full flex justify-center mx-auto my-10
          flex-wrap ${language == "fa" ? 'flex-row-reverse' : 'flex-row'}`}>
             {
                 categorys?.map((item) => (
@@ -16,7 +20,7 @@ const Filters = ({ categorys, filter, filterHandeler, language }) => {
                     </button>
                 ))
             }
-        </div>
+        </motion.div>
     )
 }
 

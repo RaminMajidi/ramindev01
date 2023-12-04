@@ -6,7 +6,7 @@ import ListItem from "./ListItem"
 const ContactList = ({ links }) => {
     const { language } = useAppContext()
     return (
-        <article className="">
+        <article className="px-3">
             {links?.map(item => (
                 <ListItem
                     key={"C_I_" + item?.id}

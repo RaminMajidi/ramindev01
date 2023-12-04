@@ -1,10 +1,12 @@
-import React from 'react'
-import { useAppContext } from '../../context/app/AppContext'
+import { motion } from "framer-motion"
 
 const DeatilsItem = ({ title, value, children, iconName, iconType, valueFont }) => {
-    const { language } = useAppContext()
     return (
-        <div className={`my-1 w-full h-10 flex max-w-max`}
+        <motion.div
+            initial={{ scale: -1, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1.4 }}
+            className={`my-1 flex `}
         >
             <span className='px-1'>
                 <box-icon
@@ -14,16 +16,16 @@ const DeatilsItem = ({ title, value, children, iconName, iconType, valueFont }) 
                     name={iconName}>
                 </box-icon>
             </span>
-            <p className="text-base text-justify">
+            <p className="text-base ">
                 <span className=''>
                     {title + " : "}
                 </span>
-                <span className={`text-[var(--color-gray)] ${valueFont}`}>
+                <span className={` text-[var(--color-gray)] ${valueFont}`}>
                     {value}
                     {children}
                 </span>
             </p>
-        </div>
+        </motion.div>
     )
 }
 

@@ -1,14 +1,22 @@
-import React from 'react'
+import { motion } from "framer-motion"
 
 const ContactText = ({ title, desc }) => {
     return (
         <div className="animate__animated animate__backInLeft">
-            <h2 className="p-2 text-2xl font-bold">
+            <motion.h2
+                initial={{ scale: -1, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="px-3 py-2 text-2xl font-bold">
                 {title}
-            </h2>
-            <p className="p-2 text-justify leading-7 text-lg lg:text-xl lg:leading-9 ">
+            </motion.h2>
+            <motion.p
+                initial={{ scale: -1, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 1.2 }}
+                className="px-3 py-2 text-justify leading-7 text-lg lg:text-xl lg:leading-9 ">
                 {desc}
-            </p>
+            </motion.p>
         </div>
     )
 }

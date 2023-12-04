@@ -10,7 +10,6 @@ import SocialList from "./SocialList";
 const ContactDetails = ({ data }) => {
     const { t } = useTranslation();
     const { language } = useAppContext()
-    console.log(data);
     return (
         <>
             <PageTitle

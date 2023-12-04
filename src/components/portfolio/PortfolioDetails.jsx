@@ -19,23 +19,24 @@ const PortfolioDetails = ({ data }) => {
   }
 
   return (
-    <PortfolioContainer>
+    <>
       <PageTitle
         belowTitle={t("portfolios.pageTitle.belowTitle")}
         topicTitle={t("portfolios.pageTitle.topicTitle") + " "}
         topicTitle2={t("portfolios.pageTitle.topicTitle2")}
       />
-      <Filters
-        language={language}
-        filter={filter}
-        categorys={data.categorys}
-        filterHandeler={filterHandeler}
-      />
-      <PortfolioList
-        data={filterData}
-      />
-
-    </PortfolioContainer>
+      <PortfolioContainer>
+        <Filters
+          language={language}
+          filter={filter}
+          categorys={data.categorys}
+          filterHandeler={filterHandeler}
+        />
+        <PortfolioList
+          data={filterData}
+        />
+      </PortfolioContainer>
+    </>
   )
 }
 

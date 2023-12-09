@@ -16,11 +16,12 @@
             "packeages": [
                 "React-js",
                 "Tailwind css",
-                "react-i18next"
+                "react-i18next",
+                "framer-motion"
             ],
             "url": "https://ramindev01.ir",
-            "coverImg": "images/portfolio/my-site.png",
-            "fa_desc": "یک سایت SPA با استفاده از React js ، با چالشهایی همچون چند زبانه بودن سایت ، تغییر تم به حالت روشن وتاریک و همچنین مطابقتتت با تم دستگاه کاربر. قابلیت تنظیم رنگ بندی سایت به دلخواه کاربر و...",
+            "coverImg": "images/portfolio/my-resume.png",
+            "fa_desc": "یک سایت SPA با استفاده از React js ، با چالشهایی همچون چند زبانه بودن سایت ، تغییر تم به حالت روشن وتاریک و همچنین مطابقت با تم دستگاه کاربر. قابلیت تنظیم رنگ بندی سایت به دلخواه کاربر و...",
             "en_desc": "A SPA site using React JS, with challenges such as the site being multilingual, changing the theme to light and dark, and also matching the theme of the user's device. The ability to adjust the color of the site as desired by the user and...",
             "images": []
         },
@@ -132,178 +133,6 @@
             "coverImg": "images/portfolio/movie-app.png",
             "fa_desc": "این سایت با استفاده از نکست جی اس ورژن 13.4.6 ساخته شده است.  در این سایت چالشهایی همچون رندر سمت کلاینت و رندر سمت سرور وجود داشته ، همچنین سعی شده تا سایت با وجود تعداد بالای رکوئست ها و دیتاها بهترین کارایی و  سرعت لود ممکن را داشته باشد.",
             "en_desc": "This site is built using NextJS version 13.4.6. In this site, there have been challenges such as client-side rendering and server-side rendering, and we have also tried to make the site have the best possible performance and load speed despite the high number of requests and data.",
-            "images": []
-        },
-        {
-            "id": 13,
-            "title": "3D-Portfolio",
-            "category": "Tempelate",
-            "yearOf": "2023",
-            "languages": [
-                "JavaScript"
-            ],
-            "packeages": [
-                "React-js",
-                "Tailwind css",
-                "framer-motion"
-            ],
-            "url": "https://3d-portfolio-tau-gules.vercel.app/",
-            "coverImg": "images/portfolio/3d-portfolio.png",
-            "desc": "یک سایت سه بعدی با استفاده از کتابخانه ReactJS و three js برای معرفی نمونه کارها و یادگیری کار با کتابخانه طراحی سه بعدی.",
-            "en_desc": "A 3D site using ReactJS and three js library to introduce portfolio and learn to work with 3D design library.",
-            "images": []
-        },
-        {
-            "id": 12,
-            "title": "admin-panel",
-            "category": "Tempelate",
-            "yearOf": "2022",
-            "languages": [
-                "JavaScript"
-            ],
-            "packeages": [
-                "react-js",
-                "BootStrap",
-                "formik",
-                "redux"
-            ],
-            "url": "https://admin-panel-reactjs-one.vercel.app/",
-            "coverImg": "images/portfolio/admin-panel.png",
-            "fa_desc": "",
-            "en_desc":"",
-            "images": []
-        },
-        {
-            "id": 10,
-            "title": "Shoping-Card",
-            "category": "App",
-            "yearOf": "2023",
-            "languages": [
-                "TypeScript"
-            ],
-            "packeages": [
-                "React-js",
-                "React-BootStrap"
-            ],
-            "url": "https://goldshopcard.netlify.app/",
-            "coverImg": "images/portfolio/gold-shop-card.png",
-            "fa_desc": "",
-            "en_desc":"",
-            "images": []
-        },
-        {
-            "id": 9,
-            "title": "signature-maker",
-            "category": "App",
-            "yearOf": "2023",
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "packeages": [
-                "React-js",
-                "react-signature-canvas"
-            ],
-            "url": "https://signature-maker.netlify.app/",
-            "coverImg": "images/portfolio/signature-maker.png",
-            "fa_desc": "",
-            "en_desc":"",
-            "images": []
-        },
-        {
-            "id": 8,
-            "title": "online-azmon",
-            "category": "Tempelate",
-            "yearOf": "2022",
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "packeages": [
-                "React-js",
-                "API",
-                "axios"
-            ],
-            "url": "https://onlineazmon.netlify.app/",
-            "coverImg": "images/portfolio/onlineazmon.png",
-            "fa_desc": "",
-            "en_desc":"",
-            "images": []
-        },
-        {
-            "id": 7,
-            "title": "multi-calendar",
-            "category": "App",
-            "yearOf": "2023",
-            "languages": [
-                "TypeScript",
-                "CSS"
-            ],
-            "packeages": [
-                "React-js",
-                "react-multi-date-picker"
-            ],
-            "url": "https://multicalendar.netlify.app/",
-            "coverImg": "images/portfolio/multi-calendar.png",
-            "fa_desc": "",
-            "en_desc":"",
-            "images": []
-        },
-        {
-            "id": 6,
-            "title": "pelates-studio",
-            "category": "Tempelate",
-            "yearOf": "2022",
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "packeages": [
-                "animate.css"
-            ],
-            "url": "https://raminmajidi.github.io/PilatesStudio/",
-            "coverImg": "images/portfolio/pelatesSite.png",
-            "fa_desc": "",
-            "en_desc":"",
-            "images": []
-        },
-        {
-            "id": 5,
-            "title": "car-gallery",
-            "category": "Tempelate",
-            "yearOf": "2022",
-            "languages": [
-                "HTML",
-                "CSS"
-            ],
-            "packeages": [
-                "BootStrap"
-            ],
-            "url": "https://cargalley.netlify.app/",
-            "coverImg": "images/portfolio/car-gallery.png",
-            "fa_desc": "",
-            "en_desc":"",
-            "images": []
-        },
-        {
-            "id": 4,
-            "title": "motor-gallery",
-            "category": "Tempelate",
-            "yearOf": "2022",
-            "languages": [
-                "HTML",
-                "CSS"
-            ],
-            "packeages": [
-                "BootStrap"
-            ],
-            "url": "https://motorgallery.netlify.app/",
-            "coverImg": "images/portfolio/motor-gallery.png",
-            "fa_desc": "",
-            "en_desc":"",
             "images": []
         }
     ]

@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
+import { useAppContext } from "../../context/app/AppContext"
 
 
 
 const ListItem = ({ iconName, iconType, title, text, isLink = false, link, font }) => {
+
+    const { language } = useAppContext()
+
     return (
         <motion.div
             initial={{ scale: -1, opacity: 0 }}
@@ -34,7 +38,8 @@ const ListItem = ({ iconName, iconType, title, text, isLink = false, link, font 
                         </Link>
                     ) :
                     (
-                        <p className={` py-1 lg:font-bold text-[var(--color-gray)]`}>
+                        <p className={`py-1 text-xs sm:text-sm md:text-base lg:text-lg
+                          text-[var(--color-gray)] ${language == "fa" ? 'font-bold' : ''}`}>
                             {text}
                         </p>
                     )

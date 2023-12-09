@@ -53,9 +53,6 @@ const AppProvider = ({ children }) => {
                 document.body.classList.remove("light")
             default:
                 document.body.classList.add(state.theme)
-
-
-
         }
     }, [state.theme])
 

@@ -2,20 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
-    font-family: tanha;
-    src: url('/public/font/tanha/Tanha-FD-WOL.eot');
-    src: url('/public/font/tanha/Tanha-FD-WOL.eot?#iefix') format('FontName-opentype'),
-        url('/public/font/tanha/Tanha-FD-WOL.woff') format('woff'),
-        url('/public/font/tanha/Tanha-FD-WOL.ttf') format('truetype');
-    font-weight: normal;
+    font-family: Poppins;
+    src: url('../public/font/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url('../public/font/Poppins/Poppins-SemiBold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: Vazir;
+    src: url('../public/font/Vazir.woff2') format('woff2');
     font-style: normal;
 }
 
@@ -26,7 +23,7 @@
     --color-pray: #333333;
     --color-text: #fff;
     --color-gray: #999;
-    --font-base: "tanha"
+    --font-base: "Vazir"
 }
 
 body.light {

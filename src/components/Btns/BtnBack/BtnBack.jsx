@@ -7,7 +7,7 @@ const BtnBack = () => {
 
     return (
         <motion.button
-            initial={{ scale: 2, opacity: 0 }}
+            initial={{ scale: -1, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: .5 }}
             title={t("btns.btnBack")}

@@ -16,7 +16,7 @@ const DeatilsItem = ({ title, value, children, iconName, iconType, valueFont }) 
                     name={iconName}>
                 </box-icon>
             </span>
-            <p className="text-base ">
+            <p className="text-base">
                 <span className=''>
                     {title + " : "}
                 </span>

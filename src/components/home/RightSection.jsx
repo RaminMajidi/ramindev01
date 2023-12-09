@@ -7,7 +7,7 @@ const RightSection = ({ imgUrl }) => {
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.3 }}
-            className="relative w-full mx-auto md:w-1/2 max-w-[500px]"
+            className="relative flex flex-col justify-center w-full h-full max-w-[500px]"
 
         >
             <BlobSvg />
@@ -15,9 +15,9 @@ const RightSection = ({ imgUrl }) => {
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="absolute top-0 left-4">
+                className="absolute">
                 <img
-                    className="w-full"
+                    className="w-full h-full"
                     src={imgUrl} />
             </motion.div>
         </motion.article >

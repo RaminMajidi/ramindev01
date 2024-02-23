@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import 'boxicons';
 import { AppProvider } from './context/app/AppContext.jsx'
-export const PUBLIC_URL = import.meta.env.VITE_PUBLIC_URL;
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <AppProvider>

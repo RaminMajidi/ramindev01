@@ -1,0 +1,75 @@
+{
+    "settings": {
+        "title": "Settings",
+        "btnClose": "Close",
+        "selectLang": {
+            "title": "Language",
+            "langFa": "Persian",
+            "langEn": "English"
+        },
+        "selectColor": {
+            "title": "Color"
+        },
+        "selectTheme": {
+            "title": "Theme",
+            "dark": "Dark",
+            "light": "Light",
+            "device": "By Device"
+        }
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "btns": {
+        "btnDownload": "Download CV",
+        "btnBack": "Previous Page"
+    },
+    "about": {
+        "pageTitle": {
+            "belowTitle": "resume",
+            "topicTitle": "about",
+            "topicTitle2": "me"
+        },
+        "pInfo": {
+            "title": "Personal Information",
+            "firstName": "FirstName",
+            "lastName": "LastName",
+            "condition": "Condition",
+            "nationality": "Nationality",
+            "address": "Address",
+            "militaryService": "Military Service"
+        },
+        "titels": {
+            "basicSkills": "Basic Skills",
+            "subSkills": "Familiar With",
+            "experience": "Experience And Training"
+        }
+    },
+    "portfolios": {
+        "pageTitle": {
+            "belowTitle": "WORKS",
+            "topicTitle": "MY",
+            "topicTitle2": "PORTFOLIO"
+        }
+    },
+    "workSampel": {
+        "title": "Title",
+        "category": "Category",
+        "year": "Yera",
+        "link": "Link",
+        "link_text": "Click to view",
+        "languages": "Languages",
+        "dependencies": "Dependencies",
+        "description": "Description"
+    },
+    "contact": {
+        "pageTitle": {
+            "belowTitle": "Contact",
+            "topicTitle": "get in",
+            "topicTitle2": "touch"
+        }
+    }
+}

@@ -8,8 +8,6 @@ import WorkSample from "./pages/WorkSample";
 import NotFound from "./pages/NotFound";
 
 
-
-
 const router = createBrowserRouter([
     {
         path: '/',

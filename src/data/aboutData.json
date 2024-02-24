@@ -48,7 +48,7 @@
             "id": 1,
             "fa_title": "پروژه انجام شده",
             "en_title": "The project is done",
-            "value": 12
+            "value": 13
         },
         {
             "id": 2,
@@ -60,7 +60,7 @@
             "id": 3,
             "fa_title": "ساعت کدنویسی",
             "en_title": "Hours of coding",
-            "value": 3224
+            "value": 3424
         }
     ],
     "basicSkills": [
@@ -93,6 +93,11 @@
             "id": 5,
             "title": "react-js",
             "img": "images/teach/reactjs.svg"
+        },
+        {
+            "id": 6,
+            "title": "next js",
+            "img": "images/teach/nextjs.svg"
         }
     ],
     "subSkills": [
@@ -122,11 +127,6 @@
             "img": "images/teach/redux.svg"
         },
         {
-            "id": 7,
-            "title": "next js",
-            "img": "images/teach/nextjs.svg"
-        },
-        {
             "id": 8,
             "title": "TypeScript",
             "img": "images/teach/typescript.svg"
@@ -141,6 +141,12 @@
             "id":10,
             "title": "Node js",
             "img": "images/teach/nodejs.svg"
+        }
+        ,
+        {
+            "id":11,
+            "title": "MUI",
+            "img": "images/teach/MUI.svg"
         }
     ],
     "experience": [

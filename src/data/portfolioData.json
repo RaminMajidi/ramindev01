@@ -19,7 +19,7 @@
                 "zustand",
                 "framer-motion"
             ],
-            "url": "https://quiz-dev-app.netlify.app",
+            "url": "https://raminmajidi.github.io/quiz-app",
             "coverImg": "images/portfolio/quiz-app.png",
             "fa_desc": "یک محیط برای سنجش مهارت های توسعه دهندگان در زبانهای مختلف که با استفاده از React js ،MUI ساخته شده است",
             "en_desc": "An environment for measuring the skills of developers in different languages, which was built using React JS, MUI and Zostand State Management.",

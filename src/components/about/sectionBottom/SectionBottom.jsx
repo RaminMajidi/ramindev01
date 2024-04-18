@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import BasicSkills from "./basicSkills/BasicSkills"
 import Experience from "./experience/Experience"
-import SubSkills from "./subSkills/Subskills";
+// import SubSkills from "./subSkills/Subskills";
 
 
 const SectionBottom = ({ basicSkillsData, subSkillsData, experienceData }) => {
@@ -13,9 +13,9 @@ const SectionBottom = ({ basicSkillsData, subSkillsData, experienceData }) => {
       <BasicSkills
         title={t("about.titels.basicSkills")}
         data={basicSkillsData} />
-      <SubSkills
+      {/* <SubSkills
         title={t("about.titels.subSkills")}
-        data={subSkillsData} />
+        data={subSkillsData} /> */}
       <Experience
         title={t("about.titels.experience")}
         data={experienceData} />

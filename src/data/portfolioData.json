@@ -6,6 +6,27 @@
     ],
     "portfolio": [
         {
+            "id": 13,
+            "title": "Chat-App",
+            "category": "App",
+            "yearOf": "2024",
+            "languages": [
+                "JavaScript"
+            ],
+            "packeages": [
+                "React-js",
+                "Tailwind css",
+                "zustand",
+                "Socket-io",
+                "Express js"
+            ],
+            "url": "https://chat-room-5p72.onrender.com/",
+            "coverImg": "images/portfolio/chat-app.png",
+            "fa_desc": "اپلیکیشن چت که با استفاده از استک MERN  ساخته شده است ، همچنین از پلاگین daisyui در Talwind برای استایل دهی کامپوننت ها و کتابخانه socketIo برای برقراری ارتباط رل تایم استفاده شده است . ",
+            "en_desc": "The chat application, which is built using the MERN stack, also uses the daisyui plugin in Talwind for styling components and the socketIo library for real-time communication.",
+            "images": []
+        },
+        {
             "id": 12,
             "title": "Quiz-App",
             "category": "App",
@@ -39,7 +60,7 @@
                 "react-i18next",
                 "framer-motion"
             ],
-            "url": "https://ramindev01.ir",
+            "url": "https://ramindev01.vercel.app/",
             "coverImg": "images/portfolio/my-resume.png",
             "fa_desc": "یک سایت SPA با استفاده از React js ، با چالشهایی همچون چند زبانه بودن سایت ، تغییر تم به حالت روشن وتاریک و همچنین مطابقت با تم دستگاه کاربر. قابلیت تنظیم رنگ بندی سایت به دلخواه کاربر و...",
             "en_desc": "A SPA site using React JS, with challenges such as the site being multilingual, changing the theme to light and dark, and also matching the theme of the user's device. The ability to adjust the color of the site as desired by the user and...",
